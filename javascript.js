@@ -22,6 +22,7 @@ var quotes = [
   "Bean Burrito -David",
   "No, I don't think I will. -i forgor",
   "Don't be polite. -AI Quote Generator",
+  "Nice reach -Hypixel User",
 ]
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
