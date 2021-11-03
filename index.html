@@ -61,6 +61,19 @@
   margin-right: auto;
   width: 50%;
 }
+.button {
+  background-color: #AE2DD1;
+  border: #9827B8;
+  color: white;
+  padding: 9px 20px;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 12px;
+  font-family:courier;
+  text-shadow:0 0 3px #9827B880;
+  text-align:center;
+}
 a:link {
   color:#AE2DD1;
   background-color: transparent;
@@ -137,10 +150,9 @@ iframe {
 <br>
 <hr>
 <br>
-<div class="heading3">
-  <h1>"Wait... it's not done!?"</h1>
-  <h1>-Ice Boat Man</h1>
-</div>
+<div class="heading2white " id="quoteDisplay"></div>
+<button onclick="newQuote()" class="button">Generate Another Quote</button>
+<script src="javascript.js"></script>
 <div class="heading3right">
   <h1>Made by 182exe</h1>
 </div>
