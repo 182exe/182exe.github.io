@@ -61,18 +61,21 @@
   margin-right: auto;
   width: 50%;
 }
-.button {
+.button1 {
   background-color: #AE2DD1;
-  border: #9827B8;
   color: white;
+  border:none;
   padding: 9px 20px;
   text-align: center;
   text-decoration: bold;
-  display: inline-block;
+  display: block;
   font-size: 12px;
   font-family:courier;
-  text-shadow:0 0 3px #9827B880;
-  text-align:center;
+  text-shadow:0 0 3px #000;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  box-shadow:0px 0px 5px #AE2DD1;
 }
 a:link {
   color:#AE2DD1;
@@ -150,9 +153,15 @@ iframe {
 <br>
 <hr>
 <br>
-<div class="heading2white " id="quoteDisplay"></div>
-<button onclick="newQuote()" class="button">Generate Another Quote</button>
+<div class="heading3">
+  <p id="quoteDisplay"></p>
+</div>
+<br>
+<br>
+<button onclick="newQuote()" class="button1">Generate A Quote</button>
 <script src="javascript.js"></script>
+<br>
+<hr>
 <div class="heading3right">
   <h1>Made by 182exe</h1>
 </div>
