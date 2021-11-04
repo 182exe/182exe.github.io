@@ -10,7 +10,7 @@ var quotes = [
   "You smell... like a baka... -Erin Yaeger",
   "WAIT HE DIDN'T DIE!? -Every skywars player ever",
   "You can't say that, that's racist! -Twitter",
-  "oh... could you be... the Sussus, Amongus, Imposter!? -Gabe",
+  "Oh... could you be... the Sussus, Amongus, Imposter!? -Gabe",
   "Are you domb -KSI",
   "These orphans are gettin' destroyed -Technoblade",
   "Memes are dumb -Reddit",
@@ -23,6 +23,14 @@ var quotes = [
   "No, I don't think I will. -i forgor",
   "Don't be polite. -AI Quote Generator",
   "Nice reach -Hypixel User",
+  "How do I make this text bigger -182exe",
+  "Bro stop throwing rocks at the WASP NEST",
+  "Semi-Barbaric teachers are cool -182exe",
+  "Damn bro, O.K.! -Unknown Airsoft Referee",
+  "Your mother -Comedy Genius",
+  "That's not very BIBLE OF YOU -Christianity",
+  "Sometimes I like to think about my past actions, and then imagine how I could have made them SO much worse. -Gabe",
+  "</> -Combuper",
 ]
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
