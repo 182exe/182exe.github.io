@@ -111,11 +111,6 @@
 }
 a:link {
   background-color:#1f2329;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   font-family:courier;
   font-size:14px;
   text-align:center;
@@ -124,11 +119,6 @@ a:link {
 }
 a:visited {
   background-color:#1f2329;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   font-family:courier;
   font-size:14px;
   text-align:center;
@@ -138,11 +128,6 @@ a:visited {
 }
 a:hover {
   background-color:#1f2329;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   font-family:courier;
   font-size:14px;
   text-align:center;
@@ -152,11 +137,6 @@ a:hover {
 }
 a:active {
   background-color:#1f2329;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   color: #AE2DD1;
   font-family:courier;
   font-size:14px;
