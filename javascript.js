@@ -43,7 +43,7 @@ var quotes = [
   "Me when I say lol after something tragic to make it seem like I was lighthearted -Every Internet User Ever",
   "Gentlemen, you can’t fight in here. This is the war room! —President Merkin Muffley (Peter Sellers), Dr. Strangelove",
   "Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes. -Jack Handey",
-  "I want my children to have all the things I couldn’t afford. Then I want to move in with them. -Phyllis Diller",
+  "I want my children to have all the things I did not get as a kid. Then I want to move in with them. -Phyllis Diller",
   "Never follow anyone else’s path. Unless you’re in the woods and you’re lost and you see a path. Then by all means follow that path. -Ellen DeGeneres",
   "Common sense is like deodorant. The people who need it most never use it. -Anonymous",
   "As you get older, three things happen. The first is your memory goes, and I can’t remember the other two. -Sir Norman Wisdom",
