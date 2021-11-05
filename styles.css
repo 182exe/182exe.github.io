@@ -8,7 +8,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:30px;
   text-align:center;
-  text-shadow:0 0 5px #AE2DD170;
+  text-shadow:0px 3px 5px #AE2DD170;
 }
 .heading1white {
   background-color:transparent;
@@ -17,7 +17,7 @@
   font-size:30px;
   text-align:center;
   line-height:0.0;
-  text-shadow:0 0 5px #000;
+  text-shadow:0px 3px 5px #000000;
 }
 .heading2purple {
   background-color:transparent;
@@ -29,7 +29,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:10px;
   text-align:center;
-  text-shadow:0 0 3px #AE2DD170;
+  text-shadow:0px 2px 3px #AE2DD170;
 }
 .heading2white {
   background-color:transparent;
@@ -37,7 +37,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:10px;
   text-align:center;
-  text-shadow:0 0 5px #000;
+  text-shadow:0px 2px 5px #000000;
 }
 .heading3 {
   background-color:transparent;
@@ -45,7 +45,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:8px;
   text-align:center;
-  text-shadow:0 0 5px #000000;
+  text-shadow:0px 2px 5px #000000;
 }
 .heading3right {
   background-color:transparent;
@@ -53,7 +53,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:8px;
   text-align:right;
-  text-shadow:0 0 5px #000000;
+  text-shadow:0px 2px 5px #000000;
 }
 .heading4 {
   background-color:transparent;
@@ -61,7 +61,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:7px;
   text-align:center;
-  text-shadow:0 0 4px #000000;
+  text-shadow:0px 2px 4px #000000;
 }
 .center {
   display: block;
@@ -83,7 +83,7 @@
   display: block;
   font-size: 14px;
   font-family: 'Assistant', 'Tahoma', sans-serif;
-  text-shadow:0 0 3px #000;
+  text-shadow:0px 0px 3px #000000;
   margin-left: auto;
   margin-right: auto;
   box-shadow:0px 0px 10px #AE2DD180;
@@ -93,14 +93,14 @@ a:link {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0 0 3px #AE2DD170;
+  text-shadow:0px 0px 3px #AE2DD170;
   color: #AE2DD1;
 }
 a:visited {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0 0 3px #AE2DD170;
+  text-shadow:0px 0px 3px #AE2DD170;
   text-decoration: bold;
   color: #AE2DD1;
 }
@@ -108,7 +108,7 @@ a:hover {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0 0 3px #AE2DD170;
+  text-shadow:0px 0px 3px #AE2DD170;
   text-decoration: bold;
   color: #AE2DD1;
 }
@@ -117,11 +117,11 @@ a:active {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0 0 3px #AE2DD170;
+  text-shadow:0px 0px 3px #AE2DD170;
   text-decoration: bold;
 }
 body {
-  background-image: linear-gradient(#242131, #0D0C13);
+  background-image: radial-gradient(#242131, #0D0C13);
 }
 img {
   border: 5px solid #AE2DD1;
