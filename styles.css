@@ -12,11 +12,7 @@
 }
 .heading1white {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #DADADA);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: white;
   font-family:courier;
   font-size:30px;
   text-align:center;
@@ -25,11 +21,7 @@
 }
 .heading2purple {
   background-color:#1f2329;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: white;
   font-family:courier;
   font-size:10px;
   text-align:center;
@@ -37,11 +29,7 @@
 }
 .heading2white {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #DADADA);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: white;
   font-family:courier;
   font-size:10px;
   text-align:center;
@@ -49,11 +37,7 @@
 }
 .heading3 {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #DADADA);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: white;
   font-family:courier;
   font-size:8px;
   text-align:center;
@@ -61,11 +45,7 @@
 }
 .heading3right {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #DADADA);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: white;
   font-family:courier;
   font-size:8px;
   text-align:right;
@@ -73,11 +53,7 @@
 }
 .heading4 {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #DADADA);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: white;
   font-family:courier;
   font-size:7px;
   text-align:center;
@@ -110,7 +86,6 @@
   border-radius:20px;
 }
 a:link {
-  background-color:#1f2329;
   font-family:courier;
   font-size:14px;
   text-align:center;
@@ -118,7 +93,6 @@ a:link {
   color: #AE2DD1;
 }
 a:visited {
-  background-color:#1f2329;
   font-family:courier;
   font-size:14px;
   text-align:center;
@@ -127,7 +101,6 @@ a:visited {
   color: #AE2DD1;
 }
 a:hover {
-  background-color:#1f2329;
   font-family:courier;
   font-size:14px;
   text-align:center;
@@ -136,7 +109,6 @@ a:hover {
   color: #AE2DD1;
 }
 a:active {
-  background-color:#1f2329;
   color: #AE2DD1;
   font-family:courier;
   font-size:14px;
