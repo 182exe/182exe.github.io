@@ -1,5 +1,5 @@
 .heading1purple {
-  background-color:#1f2329;
+  background-color:transparent;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -11,7 +11,7 @@
   text-shadow:0 0 5px #AE2DD170;
 }
 .heading1white {
-  background-color:#1f2329;
+  background-color:transparent;
   color: white;
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:30px;
@@ -20,7 +20,7 @@
   text-shadow:0 0 5px #000;
 }
 .heading2purple {
-  background-color:#1f2329;
+  background-color:transparent;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -32,7 +32,7 @@
   text-shadow:0 0 3px #AE2DD170;
 }
 .heading2white {
-  background-color:#1f2329;
+  background-color:transparent;
   color: white;
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:10px;
@@ -40,7 +40,7 @@
   text-shadow:0 0 5px #000;
 }
 .heading3 {
-  background-color:#1f2329;
+  background-color:transparent;
   color: white;
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:8px;
@@ -48,7 +48,7 @@
   text-shadow:0 0 5px #000000;
 }
 .heading3right {
-  background-color:#1f2329;
+  background-color:transparent;
   color: white;
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:8px;
@@ -56,7 +56,7 @@
   text-shadow:0 0 5px #000000;
 }
 .heading4 {
-  background-color:#1f2329;
+  background-color:transparent;
   color: white;
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:7px;
@@ -121,7 +121,7 @@ a:active {
   text-decoration: bold;
 }
 body {
-  background-color: #1f2329;
+  background-image: linear-gradient(#242131, #0D0C13);
 }
 img {
   border: 5px solid #AE2DD1;
