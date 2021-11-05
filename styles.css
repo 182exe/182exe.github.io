@@ -12,7 +12,7 @@
 }
 .heading1white {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #fff, #fff, #fff, #fff, #fff, #fff, #ACACAC);
+  background-image: linear-gradient(#fff, #DADADA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -37,7 +37,7 @@
 }
 .heading2white {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #fff, #fff, #fff, #fff, #fff, #fff, #ACACAC);
+  background-image: linear-gradient(#fff, #DADADA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,7 +49,7 @@
 }
 .heading3 {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #fff, #fff, #fff, #fff, #fff, #fff, #ACACAC);
+  background-image: linear-gradient(#fff, #DADADA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -61,7 +61,7 @@
 }
 .heading3right {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #fff, #fff, #fff, #fff, #fff, #fff, #ACACAC);
+  background-image: linear-gradient(#fff, #DADADA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -73,7 +73,7 @@
 }
 .heading4 {
   background-color:#1f2329;
-  background-image: linear-gradient(#fff, #fff, #fff, #fff, #fff, #fff, #fff, #ACACAC);
+  background-image: linear-gradient(#fff, #DADADA);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -106,48 +106,63 @@
   text-shadow:0 0 3px #000;
   margin-left: auto;
   margin-right: auto;
-  box-shadow:0px 0px 15px #AE2DD1;
+  box-shadow:0px 0px 10px #AE2DD180;
   border-radius:20px;
 }
 a:link {
+  background-color:#1f2329;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-color: transparent;
-  text-decoration: none;
-  text-shadow:0 0 3px #AE2DD180;
+  font-family:courier;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0 0 3px #AE2DD170;
+  color: #AE2DD1;
 }
 a:visited {
+  background-color:#1f2329;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-color: transparent;
-  text-decoration: none;
-  text-shadow:0 0 3px #AE2DD180;
+  font-family:courier;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0 0 3px #AE2DD170;
+  text-decoration: bold;
+  color: #AE2DD1;
 }
 a:hover {
+  background-color:#1f2329;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-color: transparent;
+  font-family:courier;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0 0 3px #AE2DD170;
   text-decoration: bold;
-  text-shadow:0 0 3px #AE2DD180;
+  color: #AE2DD1;
 }
 a:active {
+  background-color:#1f2329;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  background-color: transparent;
+  color: #AE2DD1;
+  font-family:courier;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0 0 3px #AE2DD170;
   text-decoration: bold;
-  text-shadow:0 0 3px #AE2DD180;
 }
 body {
   background-color: #1f2329;
