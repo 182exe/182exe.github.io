@@ -5,7 +5,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  Yu Gothic;
+  Courier New;
   font-size:30px;
   text-align:center;
   text-shadow:0 0 5px #AE2DD170;
@@ -13,7 +13,7 @@
 .heading1white {
   background-color:#1f2329;
   color: white;
-  Yu Gothic;
+  Courier New;
   font-size:30px;
   text-align:center;
   line-height:0.0;
@@ -22,7 +22,7 @@
 .heading2purple {
   background-color:#1f2329;
   color: white;
-  Yu Gothic;
+  Courier New;
   font-size:10px;
   text-align:center;
   text-shadow:0 0 3px #AE2DD170;
@@ -30,7 +30,7 @@
 .heading2white {
   background-color:#1f2329;
   color: white;
-  Yu Gothic;
+  Courier New;
   font-size:10px;
   text-align:center;
   text-shadow:0 0 5px #000;
@@ -38,7 +38,7 @@
 .heading3 {
   background-color:#1f2329;
   color: white;
-  Yu Gothic;
+  Courier New;
   font-size:8px;
   text-align:center;
   text-shadow:0 0 5px #000000;
@@ -46,7 +46,7 @@
 .heading3right {
   background-color:#1f2329;
   color: white;
-  Yu Gothic;
+  Courier New;
   font-size:8px;
   text-align:right;
   text-shadow:0 0 5px #000000;
@@ -54,7 +54,7 @@
 .heading4 {
   background-color:#1f2329;
   color: white;
-  Yu Gothic;
+  Courier New;
   font-size:7px;
   text-align:center;
   text-shadow:0 0 4px #000000;
@@ -78,7 +78,7 @@
   text-decoration: bold;
   display: block;
   font-size: 14px;
-  Yu Gothic;
+  Courier New;
   text-shadow:0 0 3px #000;
   margin-left: auto;
   margin-right: auto;
@@ -86,14 +86,14 @@
   border-radius:20px;
 }
 a:link {
-  Yu Gothic;
+  Courier New;
   font-size:14px;
   text-align:center;
   text-shadow:0 0 3px #AE2DD170;
   color: #AE2DD1;
 }
 a:visited {
-  Yu Gothic;
+  Courier New;
   font-size:14px;
   text-align:center;
   text-shadow:0 0 3px #AE2DD170;
@@ -101,7 +101,7 @@ a:visited {
   color: #AE2DD1;
 }
 a:hover {
-  Yu Gothic;
+  Courier New;
   font-size:14px;
   text-align:center;
   text-shadow:0 0 3px #AE2DD170;
@@ -110,7 +110,7 @@ a:hover {
 }
 a:active {
   color: #AE2DD1;
-  Yu Gothic;
+  Courier New;
   font-size:14px;
   text-align:center;
   text-shadow:0 0 3px #AE2DD170;
