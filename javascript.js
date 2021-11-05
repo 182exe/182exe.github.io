@@ -50,7 +50,8 @@ var quotes = [
   "That’s why New York is so great, though. Everyone you care about can despise you and you can still find a bagel so good, nothing else matters. Who needs love when you’ve got lox? They both stink, but only one tastes good. -Midge Maisel",
   "Here’s some advice: At a job interview, tell them you’re willing to give 110 percent. Unless the job is a statistician. -Adam Gropman",
   "You should really come with a warning label -Anonymous",
-  "Feed your own ego. I’m busy. -Anonymouse",
+  "Feed your own ego. I’m busy. -Anonymous",
+  "When I'm eating cereal and the 8 foot tall screaming skinless corpse reappears for two seconds before vanishing again -Noah",
 ]
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
