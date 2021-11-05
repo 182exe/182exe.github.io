@@ -39,7 +39,20 @@ var quotes = [
   "Don't mind me... -Bankrobber",
   "Hold up the fire -Yeah",
   "Canada x USA :flushed: -Look at the world map ;)",
-  "",
+  "iusehuzuni is a mcdonalds employee who beats up people in a block game -182exe",
+  "Yeah? So? -Unknown",
+  "I ran out of quote ideas -182exe",
+  "Me when I say lol after something tragic to make it seem like I was lighthearted -Every Internet User Ever",
+  "Gentlemen, you can’t fight in here. This is the war room! —President Merkin Muffley (Peter Sellers), Dr. Strangelove",
+  "Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes. -Jack Handey",
+  "I want my children to have all the things I couldn’t afford. Then I want to move in with them. -Phyllis Diller",
+  "Never follow anyone else’s path. Unless you’re in the woods and you’re lost and you see a path. Then by all means follow that path. -Ellen DeGeneres",
+  "Common sense is like deodorant. The people who need it most never use it. -Anonymous",
+  "As you get older, three things happen. The first is your memory goes, and I can’t remember the other two. -Sir Norman Wisdom",
+  "That’s why New York is so great, though. Everyone you care about can despise you and you can still find a bagel so good, nothing else matters. Who needs love when you’ve got lox? They both stink, but only one tastes good. -Midge Maisel",
+  "Here’s some advice: At a job interview, tell them you’re willing to give 110 percent. Unless the job is a statistician. -Adam Gropman",
+  "You should really come with a warning label -Anonymous",
+  "Feed your own ego. I’m busy. -Anonymouse",
 ]
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
