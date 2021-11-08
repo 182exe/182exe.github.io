@@ -59,7 +59,7 @@
   background-color:transparent;
   color: white;
   font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:7px;
+  font-size:10px;
   text-align:center;
   text-shadow:0px 2px 4px #000000;
 }
@@ -148,5 +148,5 @@ iframe {
   background: #AE2DD180;
 }
 hr.rounded {
-  border-top: 3px solid #fff;
-  border-radius: 8px;
+  border-top: 4px solid #ffffff;
+  border-radius: 3px;
