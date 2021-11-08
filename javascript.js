@@ -43,7 +43,7 @@ var quotes = [
   "Gentlemen, you can’t fight in here. This is the war room! —President Merkin Muffley",
   "Before you criticize someone, you should walk a mile in their shoes. That way when you criticize them, you are a mile away from them and you have their shoes. -Jack Handey",
   "I want my children to have all the things I couldn\'t have as a kid. Then I want to move in with them. -Phyllis Diller",
-  "Never follow anyone else’s path. Unless you’re in the woods and you’re lost and you see a path. Then by all means follow that path. -Ellen DeGeneres",
+  "Never follow anyone else\’s path. Unless you\’re in the woods and you\’re lost and you see a path. Then by all means follow that path. -Ellen DeGeneres",
   "Common sense is like deodorant. The people who need it most never use it. -Anonymous",
   "As you get older, three things happen. The first is your memory goes, and I can’t remember the other two. -Sir Norman Wisdom",
   "That’s why New York is so great, though. Everyone you care about can despise you and you can still find a bagel so good, nothing else matters. Who needs love when you’ve got lox? They both stink, but only one tastes good. -Midge Maisel",
