@@ -29,7 +29,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:10px;
   text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
+  text-shadow:0px 3px 3px #AE2DD170;
 }
 .heading2white {
   background-color:transparent;
@@ -37,7 +37,7 @@
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:10px;
   text-align:center;
-  text-shadow:0px 2px 5px #000000;
+  text-shadow:0px 3px 5px #000000;
 }
 .heading3 {
   background-color:transparent;
@@ -83,7 +83,7 @@
   display: block;
   font-size: 14px;
   font-family: 'Assistant', 'Tahoma', sans-serif;
-  text-shadow:0px 0px 3px #000000;
+  text-shadow:0px 2px 3px #000000;
   margin-left: auto;
   margin-right: auto;
   box-shadow:0px 0px 10px #AE2DD180;
@@ -93,14 +93,14 @@ a:link {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 0px 3px #AE2DD170;
+  text-shadow:0px 2px 3px #AE2DD170;
   color: #AE2DD1;
 }
 a:visited {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 0px 3px #AE2DD170;
+  text-shadow:0px 2px 3px #AE2DD170;
   text-decoration: bold;
   color: #AE2DD1;
 }
@@ -108,7 +108,7 @@ a:hover {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 0px 3px #AE2DD170;
+  text-shadow:0px 2px 3px #AE2DD170;
   text-decoration: bold;
   color: #AE2DD1;
 }
@@ -117,7 +117,7 @@ a:active {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 0px 3px #AE2DD170;
+  text-shadow:0px 2px 3px #AE2DD170;
   text-decoration: bold;
 }
 body {
@@ -126,15 +126,27 @@ body {
 img {
   border: 5px solid #AE2DD1;
   border-radius: 40px;
-  box-shadow: 1px 1px 20px #AE2DD1;
+  box-shadow: 0px 5px 20px #AE2DD1;
 }
 iframe {
   border: 5px solid #AE2DD1;
   border-radius: 40px;
-  box-shadow: 1px 1px 20px #AE2DD1;
+  box-shadow: 0px 7px 20px #AE2DD1;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: box;
   -moz-background-clip: box;
   -webkit-box-fill-color: transparent;
   -moz-box-fill-color: transparent;
 }
+::-moz-selection {
+  color: white;
+  background: #AE2DD180;
+}
+
+::selection {
+  color: white;
+  background: #AE2DD180;
+}
+hr.rounded {
+  border-top: 3px solid #fff;
+  border-radius: 8px;
