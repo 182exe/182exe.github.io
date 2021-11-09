@@ -9,14 +9,14 @@
   font-size:30px;
   text-align:center;
   text-shadow:0px 3px 5px #AE2DD170;
+  transition: all 0.3s ease;
 }
 .heading1purple:hover {
   font-size:32px;
   text-shadow:0px 3px 7px #AE2DD1;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
+  transition: all 0.3s ease;
 }
+
 .heading1white {
   background-color:transparent;
   color: white;
@@ -25,7 +25,14 @@
   text-align:center;
   line-height:0.0;
   text-shadow:0px 3px 5px #000000;
+  transition: all 0.3s ease;
 }
+.heading1white:hover {
+  font-size:31px;
+  text-shadow:0px 3px 7px #000000;
+  transition: all 0.3s ease;
+}
+
 .heading2purple {
   background-color:transparent;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
@@ -37,7 +44,14 @@
   font-size:10px;
   text-align:center;
   text-shadow:0px 3px 3px #AE2DD170;
+  transition: all 0.3s ease;
 }
+.heading2purple:hover {
+  text-shadow:0px 3px 4px #AE2DD180;
+  font-size:11px;
+  transition: all 0.3s ease;
+}
+
 .heading2white {
   background-color:transparent;
   color: white;
@@ -45,7 +59,14 @@
   font-size:10px;
   text-align:center;
   text-shadow:0px 3px 5px #000000;
+  transition: all 0.3s ease;
 }
+.heading2white:hover {
+  text-shadow:0px 3px 7px #000000;
+  font-size:11px;
+  transition: all 0.3s ease;
+}
+
 .heading3 {
   background-color:transparent;
   color: white;
@@ -53,7 +74,13 @@
   font-size:8px;
   text-align:center;
   text-shadow:0px 2px 5px #000000;
+  transition: all 0.3s ease;
 }
+.heading3:hover {
+  text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
+  transition: all 0.3s ease;
+}
+
 .heading3right {
   background-color:transparent;
   color: white;
@@ -61,7 +88,9 @@
   font-size:8px;
   text-align:right;
   text-shadow:0px 2px 5px #000000;
+  transition: all 0.3s ease;
 }
+
 .heading4 {
   background-color:transparent;
   color: white;
@@ -69,13 +98,16 @@
   font-size:10px;
   text-align:center;
   text-shadow:0px 2px 4px #000000;
+  transition: all 0.3s ease;
 }
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+
 .button1 {
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: box;
@@ -95,20 +127,21 @@
   margin-right: auto;
   box-shadow:0px 0px 10px #AE2DD180;
   border-radius:20px;
+  transition: all 0.3s ease;
 }
 .button1:hover {
   padding: 13px 40px;
   box-shadow:0px 0px 15px #AE2DD180;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
+  transition: all 0.3s ease;
 }
+
 a:link {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
   text-shadow:0px 2px 3px #AE2DD170;
   color: #AE2DD1;
+  transition: all 0.3s ease;
 }
 a:visited {
   font-family: 'Assistant', 'Tahoma', sans-serif;
@@ -122,12 +155,10 @@ a:hover {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 2px 4px #AE2DD170;
+  text-shadow:0px 2px 4px #AE2DD1;
   text-decoration: bold;
   color: #AE2DD1;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+  transition: all 0.3s ease;
 }
 a:active {
   color: #AE2DD1;
@@ -137,30 +168,34 @@ a:active {
   text-shadow:0px 2px 3px #AE2DD170;
   text-decoration: bold;
 }
+
 body {
   background-image: radial-gradient(#242131, #0D0C13);
 }
+
 img {
   border: 5px solid #AE2DD1;
   border-radius: 40px;
   box-shadow: 0px 5px 20px #AE2DD1;
 }
+
 iframe {
   border: 5px solid #AE2DD1;
   border-radius: 40px;
-  box-shadow: 0px 7px 20px #AE2DD1;
+  box-shadow: 0px 0px 20px #AE2DD1;
   background-image: linear-gradient(#AE2DD1, #6A15A1);
   -webkit-background-clip: box;
   -moz-background-clip: box;
   -webkit-box-fill-color: transparent;
   -moz-box-fill-color: transparent;
+  transition: all 0.3s ease;
 }
 iframe:hover {
-  box-shadow: 0px 7px 20px #AE2DD1;
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease;
+  border: 5px solid #6A15A1;
+  box-shadow: 0px 0px 20px #6A15A1;
+  transition: all 0.3s ease;
 }
+
 ::-moz-selection {
   color: white;
   background: #AE2DD180;
@@ -173,7 +208,14 @@ iframe:hover {
   border: none;
   border-radius: 4px;
 }
+
 hr.rounded {
-  border-top: 4px solid #ffffff;
+  border: 4px solid #ffffff;
   border-radius: 3px;
-  transition: 0.5s;
+  transition: all 0.3s ease;
+}
+hr.rounded:hover {
+  border: 5px solid #ffffff;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
