@@ -10,6 +10,13 @@
   text-align:center;
   text-shadow:0px 3px 5px #AE2DD170;
 }
+.heading1purple:hover {
+  font-size:32px;
+  text-shadow:0px 3px 7px #AE2DD1;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
 .heading1white {
   background-color:transparent;
   color: white;
@@ -89,6 +96,13 @@
   box-shadow:0px 0px 10px #AE2DD180;
   border-radius:20px;
 }
+.button1:hover {
+  padding: 13px 40px;
+  box-shadow:0px 0px 15px #AE2DD180;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
 a:link {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
@@ -108,9 +122,12 @@ a:hover {
   font-family: 'Assistant', 'Tahoma', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
+  text-shadow:0px 2px 4px #AE2DD170;
   text-decoration: bold;
   color: #AE2DD1;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
 }
 a:active {
   color: #AE2DD1;
@@ -138,15 +155,25 @@ iframe {
   -webkit-box-fill-color: transparent;
   -moz-box-fill-color: transparent;
 }
+iframe:hover {
+  box-shadow: 0px 7px 20px #AE2DD1;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
 ::-moz-selection {
   color: white;
   background: #AE2DD180;
+  border-radius: 4px;
+  border: none;
 }
-
 ::selection {
   color: white;
   background: #AE2DD180;
+  border: none;
+  border-radius: 4px;
 }
 hr.rounded {
   border-top: 4px solid #ffffff;
   border-radius: 3px;
+  transition: 0.5s;
