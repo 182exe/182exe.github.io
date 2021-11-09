@@ -1,3 +1,6 @@
+/* Javascript Integrations */
+
+/* Quote Bank */
 var quotes = [
   "Wait, you\'re not done building it!? -KingSwagus",
   "Dude it\'s fine I got this -Luvonox",
@@ -78,6 +81,8 @@ var quotes = [
   "EEEEEEEEEEEEEEEEE -e man",
   "hUeShIfT mOrE -Pack Community Members",
 ]
+
+/* Give HTML a quote in a variable that it can execute */
 function newQuote() {
   var randomNumber = Math.floor(Math.random() * (quotes.length));
   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
