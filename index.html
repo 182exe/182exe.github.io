@@ -1,92 +1,238 @@
-<!-- HTML Site Code -->
+/* CSS Formatting */
+/* All Code is Mine */
+/* Thank you w3schools */
 
-<!-- Page Setup -->
-<!DOCTYPE html>
-<html>
-<head>
+/* Big Title Text */
+.heading1purple {
+  background-color:transparent;
+  background-image: linear-gradient(#AE2DD1, #6A15A1);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:30px;
+  text-align:center;
+  text-shadow:0px 3px 5px #AE2DD170;
+  transition: all 0.3s ease-in-out;
+}
+.heading1purple:hover {
+  font-size:32px;
+  text-shadow:0px 3px 7px #AE2DD1;
+  transition: all 0.3s ease-in-out;
+}
 
-<!-- Make Website Work w/ Multiple Screen Sizes -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
+/* Big White Title Text */
+.heading1white {
+  background-color:transparent;
+  color: white;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:30px;
+  text-align:center;
+  line-height:0.0;
+  text-shadow:0px 3px 5px #000000;
+  transition: all 0.3s ease-in-out;
+}
+.heading1white:hover {
+  font-size:31px;
+  text-shadow:0px 3px 7px #000000;
+  transition: all 0.3s ease-in-out;
+}
 
-<!-- Page Title -->
-<title>C:\182.exe\Webpage\Home</title>
+/* Heading Two */
+.heading2purple {
+  background-color:transparent;
+  background-image: linear-gradient(#AE2DD1, #6A15A1);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:10px;
+  text-align:center;
+  text-shadow:0px 3px 3px #AE2DD170;
+  transition: all 0.3s ease-in-out;
+}
+.heading2purple:hover {
+  text-shadow:0px 3px 4px #AE2DD180;
+  font-size:11px;
+  transition: all 0.3s ease-in-out;
+}
 
-<!-- Favicon Setup -->
-<link rel="shortcut icon" type="image/jpg" href="https://yt3.ggpht.com/ZyZHUSsTft5PxJhlvCSSDeSncpKGEuGNmMuWXvYnpYDbSOcQpdS2Kc_6hOHci-0eVLAxVf8ATQ=s88-c-k-c0x00ffffff-no-rj"/>
-<link rel="icon" type="image/jpg" href="https://yt3.ggpht.com/ZyZHUSsTft5PxJhlvCSSDeSncpKGEuGNmMuWXvYnpYDbSOcQpdS2Kc_6hOHci-0eVLAxVf8ATQ=s88-c-k-c0x00ffffff-no-rj"/>
+/* Heading Two Purple Ver */
+.heading2white {
+  background-color:transparent;
+  color: white;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:10px;
+  text-align:center;
+  text-shadow:0px 3px 5px #000000;
+  transition: all 0.3s ease-in-out;
+}
+.heading2white:hover {
+  text-shadow:0px 3px 7px #000000;
+  font-size:11px;
+  transition: all 0.3s ease-in-out;
+}
 
-<!-- Import styles.css -->
-<link rel="stylesheet" href="styles.css">
+/* Normal White Text*/
+.heading3 {
+  background-color:transparent;
+  color: white;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:8px;
+  text-align:center;
+  text-shadow:0px 2px 5px #000000;
+  transition: all 0.3s ease-in-out;
+}
+.heading3:hover {
+  text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
+  transition: all 0.3s ease-in-out;
+}
 
-<!-- Import Font from Google Fonts -->
-<link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
-</head>
+/* Normal White Text Right Alignment */
+.heading3right {
+  background-color:transparent;
+  color: white;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:8px;
+  text-align:right;
+  text-shadow:0px 2px 5px #000000;
+  transition: all 0.3s ease-in-out;
+}
+.heading3right:hover {
+  text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
+  transition: all 0.3s ease-in-out;
+}
 
-<!-- Page Content (Body) -->
-<body onLoad="javascript:newQuote()">
-<hr class="rounded">
-<div class="heading1purple">
-  <h1>182exe</h1>
-</div>
-<div class="heading2white">
-  <h1>Youtuber - Pixel Artist - Minecraft Player</h1>
-</div>
+/* Small White Text */
+.heading4 {
+  background-color:transparent;
+  color: white;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:10px;
+  text-align:center;
+  text-shadow:0px 2px 4px #000000;
+  transition: all 0.3s ease-in-out;
+}
 
-<hr class="rounded">
+/* Center Align Stuff Using This (i dont use rn idk) */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
-<div class="heading2white">
-  <h1>Internet Presences</h1>
-</div>
+/* Button Glowy owo */
+.button1 {
+  background-image: linear-gradient(#AE2DD1, #6A15A1);
+  -webkit-background-clip: box;
+  -moz-background-clip: box;
+  -webkit-box-fill-color: transparent;
+  -moz-box-fill-color: transparent;
+  color: white;
+  border:none;
+  padding: 13px 28px;
+  text-align: center;
+  text-decoration: bold;
+  display: block;
+  font-size: 14px;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  text-shadow:0px 2px 3px #000000;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:0px 0px 10px #AE2DD180;
+  border-radius:20px;
+  transition: all 0.3s ease-in-out;
+}
+.button1:hover {
+  padding: 13px 40px;
+  box-shadow:0px 0px 15px #AE2DD180;
+  transition: all 0.3s ease-in-out;
+}
 
-<div class="heading3">
-  <h1>YouTube</h1>
-  <h1><a href="https://www.youtube.com/c/182exe/?sub_confirmation=1">youtube.com/c/182exe</a></h1>
-</div>
 
-<br>
+/* Link Formatting */
+a:link {
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0px 2px 3px #AE2DD170;
+  color: #AE2DD1;
+  transition: all 0.3s ease-in-out;
+}
+a:visited {
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0px 2px 3px #AE2DD170;
+  text-decoration: bold;
+  color: #AE2DD1;
+}
+a:hover {
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0px 2px 4px #AE2DD1;
+  text-decoration: bold;
+  color: #AE2DD1;
+  transition: all 0.3s ease-in-out;
+}
+a:active {
+  color: #AE2DD1;
+  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-size:14px;
+  text-align:center;
+  text-shadow:0px 2px 3px #AE2DD170;
+  text-decoration: bold;
+}
 
-<div class="heading3">
-  <h1>Discord Username/Server</h1>
-  <h1><a href="https://discord.gg/TvTrsjju4T">discord.gg/TvTrsjju4T</a></h1>
-  <h1>182exe#5063</h1>
-</div>
+/* Generic Element Formatting */
+body {
+  background-image: linear-gradient(135deg, #242131, #0D0C13);
+}
 
-<br>
+img {
+  border: 5px solid #AE2DD1;
+  border-radius: 40px;
+  box-shadow: 0px 5px 20px #AE2DD1;
+}
 
-<div class="heading3">
-  <h1>Minecraft Usernames</h1>
-  <h1><a href="https://mine.ly/182exe">mine.ly/182exe</a></h1>
-  <h1><a href="https://mine.ly/Resourcepac">mine.ly/resourcepac</a></h1>
-  <h1>182exe / Resourcepac</h1>
-  <h1 class="heading4">(Yes, both are spelled correctly.)</h1>
-</div>
+iframe {
+  border: 5px solid #AE2DD1;
+  border-radius: 40px;
+  box-shadow: 0px 0px 20px #AE2DD1;
+  background-image: linear-gradient(#AE2DD1, #6A15A1);
+  -webkit-background-clip: box;
+  -moz-background-clip: box;
+  -webkit-box-fill-color: transparent;
+  -moz-box-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+iframe:hover {
+  border: 5px solid #6A15A1;
+  box-shadow: 0px 0px 20px #6A15A1;
+  transition: all 0.3s ease-in-out;
+}
 
-<hr class="rounded">
+/* Text Selection Formatting */
+::-moz-selection {
+  color: white;
+  background: #AE2DD180;
+  border-radius: 4px;
+  border: none;
+}
+::selection {
+  color: white;
+  background: #AE2DD180;
+  border: none;
+  border-radius: 4px;
+}
 
-<div class="heading2white">
-  <h1>Latest Video</h1>
-</div>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KjxYWk6QZHk" title="YouTube Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="center"></iframe>
-
-<br>
-<hr class="rounded">
-<br>
-
-<!-- Quote Generator Using javascript -->
-<div class="heading3">
-  <h1 id="quoteDisplay"></h1>
-</div>
-<br>
-<button onclick="newQuote()" class="button1">Generate A Quote</button>
-<script src="javascript.js"></script>
-
-<br>
-<hr class="rounded">
-
-<div class="heading3right">
-  <h1>Made by 182exe</h1>
-</div>
-
-</body>
-</html>
+/* Dividing <hr> formattings */
+hr.rounded {
+  border: 4px solid #ffffff;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
