@@ -80,6 +80,8 @@ var quotes = [
   "BICYCLE -BIKE",
   "EEEEEEEEEEEEEEEEE -e man",
   "hUeShIfT mOrE -Pack Community Members",
+  "Skill Issue -Discord",
+  "Scientific Name for Pig? -Sus",
 ]
 
 /* Give HTML a quote in a variable that it can execute */
