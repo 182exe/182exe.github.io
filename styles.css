@@ -1,245 +1,126 @@
-/* CSS Formatting */
-/* All Code is Mine */
-/* Thank you w3schools */
+<!-- HTML Site Code -->
 
-/* Big Title Text */
-.heading1purple {
-  background-color:transparent;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:30px;
-  text-align:center;
-  text-shadow:0px 3px 5px #AE2DD170;
-  transition: all 0.3s ease-in-out;
-}
-.heading1purple:hover {
-  font-size:32px;
-  text-shadow:0px 3px 7px #AE2DD1;
-  transition: all 0.3s ease-in-out;
-}
+<!-- Page Setup -->
+<!DOCTYPE html>
+<html>
+<head>
 
-/* Big White Title Text */
-.heading1white {
-  background-color:transparent;
-  color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:20px;
-  text-align:center;
-  line-height:0.0;
-  text-shadow:0px 3px 5px #000000;
-  transition: all 0.3s ease-in-out;
-}
-.heading1white:hover {
-  font-size:21px;
-  text-shadow:0px 3px 7px #000000;
-  transition: all 0.3s ease-in-out;
-}
+<!-- Make Website Work w/ Multiple Screen Sizes -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-/* Heading Two */
-.heading2purple {
-  background-color:transparent;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:14px;
-  text-align:center;
-  text-shadow:0px 3px 3px #AE2DD170;
-  transition: all 0.3s ease-in-out;
-}
-.heading2purple:hover {
-  text-shadow:0px 3px 4px #AE2DD180;
-  font-size:15px;
-  transition: all 0.3s ease-in-out;
-}
+<!-- Page Title -->
+<title>C:\182.exe\Webpage\Home</title>
 
-/* Heading Two Purple Ver */
-.heading2white {
-  background-color:transparent;
-  color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:10px;
-  text-align:center;
-  text-shadow:0px 3px 5px #000000;
-  transition: all 0.3s ease-in-out;
-}
-.heading2white:hover {
-  text-shadow:0px 3px 7px #000000;
-  font-size:11px;
-  transition: all 0.3s ease-in-out;
-}
+<!-- Favicon Setup -->
+<link rel="shortcut icon" type="image/jpg" href="https://lh3.googleusercontent.com/OPGfMb-JbUy01g-3S_VfhK8YQ8xsqi3a789cuUF7SBvFzw6bzYZI0kCVJ8Ziv6SBO-_JIyXdxvbo7AVS3WTllg9zvuxQwBRzPBcYfR-WcSvUkFLS7fZudCoBFrcNALM2EOiwj4ynmWDpXRsuUw7oBCZNHlh5yeoZNSnhUdKIWVdJ2frZrkzk9bv1jvcX5tXa_eB8swyZTJqI8PaQ3mfnkkKzNRVjJ5BrhCUHddmKuuCFu3xbAGeMqOWBIut-yYB7edIKrGeV2cAYfjltECHFHd2VB_qqjc_e4BneWFRGvMH5C1JUwl6sWiMJ-blD_upg2GALYGXbK_s4J1LSbXf79vvIXtj-qbp-SrHHtiHnOjM644x9g82e8RBgg6KuxraXsR-ywbzWAgGkkV6IGMr7gXbtEKhWWuVz6VbFh5-qrrNq6z5n6v4xxa_2vIsfXbjR7Sn7LEKfysgAsHRTIh7biB7HEQSTzyTSb57KVkmXwK6xwivAnITvAAKvlQdKdfhLc4ZSImT5SesiypcP2V08QbZWR8xSWHnuNNGp5vhMp3kwjp-cgFrCUswTXamoY0y1djsr2xMtObXRfoPwIj_5iaLHZkkIg4ph6m9HJM4bLo2ienH1ac6V8YWrOdqcVXKPSHrDUgs8FyOoZPohcCq1JDhAWLlp7rG786YEU-Qocb5MDKE4P3lTVq7r624GGjUziyj5J0fo6UeMWUvIG4V8dXs=s512-no?authuser=0"/>
+<link rel="icon" type="image/jpg" href="https://lh3.googleusercontent.com/OPGfMb-JbUy01g-3S_VfhK8YQ8xsqi3a789cuUF7SBvFzw6bzYZI0kCVJ8Ziv6SBO-_JIyXdxvbo7AVS3WTllg9zvuxQwBRzPBcYfR-WcSvUkFLS7fZudCoBFrcNALM2EOiwj4ynmWDpXRsuUw7oBCZNHlh5yeoZNSnhUdKIWVdJ2frZrkzk9bv1jvcX5tXa_eB8swyZTJqI8PaQ3mfnkkKzNRVjJ5BrhCUHddmKuuCFu3xbAGeMqOWBIut-yYB7edIKrGeV2cAYfjltECHFHd2VB_qqjc_e4BneWFRGvMH5C1JUwl6sWiMJ-blD_upg2GALYGXbK_s4J1LSbXf79vvIXtj-qbp-SrHHtiHnOjM644x9g82e8RBgg6KuxraXsR-ywbzWAgGkkV6IGMr7gXbtEKhWWuVz6VbFh5-qrrNq6z5n6v4xxa_2vIsfXbjR7Sn7LEKfysgAsHRTIh7biB7HEQSTzyTSb57KVkmXwK6xwivAnITvAAKvlQdKdfhLc4ZSImT5SesiypcP2V08QbZWR8xSWHnuNNGp5vhMp3kwjp-cgFrCUswTXamoY0y1djsr2xMtObXRfoPwIj_5iaLHZkkIg4ph6m9HJM4bLo2ienH1ac6V8YWrOdqcVXKPSHrDUgs8FyOoZPohcCq1JDhAWLlp7rG786YEU-Qocb5MDKE4P3lTVq7r624GGjUziyj5J0fo6UeMWUvIG4V8dXs=s512-no?authuser=0"/>
 
-/* Normal White Text*/
-.heading3 {
-  background-color:transparent;
-  color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:8px;
-  text-align:center;
-  text-shadow:0px 2px 5px #000000;
-  transition: all 0.3s ease-in-out;
-}
-.heading3:hover {
-  text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
-  transition: all 0.3s ease-in-out;
-}
+<!-- Import styles.css -->
+<link rel="stylesheet" href="styles.css">
 
-/* Normal White Text Right Alignment */
-.heading3right {
-  background-color:transparent;
-  color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:8px;
-  text-align:right;
-  text-shadow:0px 2px 5px #000000;
-  transition: all 0.3s ease-in-out;
-}
-.heading3right:hover {
-  text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
-  transition: all 0.3s ease-in-out;
-}
+<!-- Import Font from Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+</head>
 
-/* Small White Text */
-.heading4 {
-  background-color:transparent;
-  color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:10px;
-  text-align:center;
-  text-shadow:0px 2px 4px #000000;
-  transition: all 0.3s ease-in-out;
-}
+<!-- Page Content (Body) -->
+<body onLoad="javascript:newQuote()">
+<div class="heading1purple">
+  <h1>182exe</h1>
+</div>
 
-/* Center Align Stuff Using This (i dont use rn idk) */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
+<br>
+<hr class="rounded">
+<br>
 
-/* Button Glowy owo */
-.button1 {
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: box;
-  -moz-background-clip: box;
-  -webkit-box-fill-color: transparent;
-  -moz-box-fill-color: transparent;
-  color: white;
-  border:none;
-  padding: 13px 28px;
-  text-align: center;
-  text-decoration: bold;
-  display: block;
-  font-size: 14px;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  text-shadow:0px 2px 3px #000000;
-  margin-left: auto;
-  margin-right: auto;
-  box-shadow:0px 0px 10px #AE2DD180;
-  border-radius:20px;
-  transition: all 0.3s ease-in-out;
-}
-.button1:hover {
-  padding: 13px 40px;
-  box-shadow:0px 0px 15px #AE2DD180;
-  transition: all 0.3s ease-in-out;
-}
+<div class="heading1white">
+  <h1>Socials</h1>
+</div>
+<div class="heading2white">
+  <h1>Find me on the Internet</h1>
+</div>
 
+<br>
+<hr>
+<br>
 
-/* Link Formatting */
-a:link {
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:14px;
-  text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
-  color: #AE2DD1;
-  transition: all 0.3s ease-in-out;
-}
-a:visited {
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:14px;
-  text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
-  text-decoration: bold;
-  color: #AE2DD1;
-}
-a:hover {
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:14px;
-  text-align:center;
-  text-shadow:0px 2px 4px #AE2DD1;
-  text-decoration: bold;
-  color: #AE2DD1;
-  transition: all 0.3s ease-in-out;
-}
-a:active {
-  color: #AE2DD1;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  font-size:14px;
-  text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
-  text-decoration: bold;
-}
+<div class="heading2white">
+  <h1>YouTube</h1>
+</div>
+<div class="heading3">
+  <h1>I post Minecraft content every few weeks, mostly resourcepack releases, montages, and memes.</h1>
+  <button onclick="document.location='https://www.youtube.com/c/182exe/?sub_confirmation=1'" class="button1" target="_blank">Visit my YouTube Channel</button>
+  <h1>Consider subscribing if you enjoy my content!</h1>
+</div>
 
-/* Generic Element Formatting */
-body {
-  background-image: linear-gradient(135deg, #242131, #0D0C13);
-}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/43xrH9eYzvA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  class="center"></iframe>
+<br>
+<br>
+<div class="heading2white">
+  <h1>Latest Video</h1>
+</div>
 
-img {
-  border: 5px solid #AE2DD1;
-  border-radius: 40px;
-  box-shadow: 0px 5px 20px #AE2DD1;
-}
+<br>
+<hr>
+<br>
 
-iframe {
-  border: 5px solid #AE2DD1;
-  border-radius: 40px;
-  box-shadow: 0px 0px 20px #AE2DD1;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: box;
-  -moz-background-clip: box;
-  -webkit-box-fill-color: transparent;
-  -moz-box-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-iframe:hover {
-  border: 5px solid #6A15A1;
-  box-shadow: 0px 0px 20px #6A15A1;
-  transition: all 0.3s ease-in-out;
-}
-html {
-  scroll-behavior: smooth;
-}
+<div class="heading2white">
+  <h1>Discord</h1>
+</div>
+<div class="heading3">
+  <h1>I am very active on discord, and you can join my discord or add me as a friend and DM me below.</h1>
+</div>
+<div>
+  <button onclick="document.location='https://discord.gg/TvTrsjju4T'" class="button1" target="_blank" rel="noopener noreferrer">Join My Discord</button>
+</div>
+<div class="heading3">
+  <h1>Username: 182exe#5063</h1>
+</div>
 
-/* Text Selection Formatting */
-::-moz-selection {
-  color: white;
-  background: #AE2DD180;
-  border-radius: 4px;
-  border: none;
-}
-::selection {
-  color: white;
-  background: #AE2DD180;
-  border: none;
-  border-radius: 4px;
-}
+<br>
+<hr>
+<br>
 
-/* Dividing <hr> formattings */
-hr.rounded {
-  border: 4px solid #ffffff;
-  border-radius: 3px;
-  transition: all 0.3s ease-in-out;
-}
+<div class="heading2white">
+  <h1>Minecraft / NameMC</h1>
+</div>
+<div class="heading3">
+  <h1>I main Minecraft and have two main accounts. You can find my NameMC and Usernames Below</h1>
+</div>
+<div>
+  <button onclick="document.location='https://mine.ly/182exe'" class="button1" target="_blank" rel="noopener noreferrer">182exe on NameMC</button>
+</div>
+  <br>
+<div>
+  <button onclick="document.location='https://mine.ly/Resourcepac'" class="button1" target="_blank" rel="noopener noreferrer">Resourcepac on NameMC</button>
+</div>
+<div class="heading3">
+  <h1>Usernames: 182exe / Resourcepac</h1>
+</div>
+<div>
+  <h1 class="heading4">(Yes, both are spelled correctly.)</h1>
+</div>
+
+<br>
+<hr class="rounded">
+<br>
+
+<!-- Quote Generator Using javascript -->
+<div class="heading2white">
+  <h1>Quote Generator</h1>
+</div>
+<div class="heading3">
+  <h1 id="quoteDisplay"></h1>
+</div>
+<br>
+<button onclick="newQuote()" class="button1">Generate A Quote</button>
+<script src="javascript.js"></script>
+
+<br>
+<hr class="rounded">
+
+<div class="heading3right">
+  <h1>Made by 182exe</h1>
+</div>
+
+</body>
+</html>
