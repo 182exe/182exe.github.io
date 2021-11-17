@@ -304,6 +304,28 @@ hr.rounded:hover {
   transition: all 0.3s ease-in-out;
 }
 
+/* scrollbar stuff */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #AE2DD1; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #6A15A1; 
+}
+
 @keyframes bounce {
   0% { transform: translate(0px,0px) rotate(0deg); }
   25% { transform: translate(0px,-3px) rotate(-2deg); }
