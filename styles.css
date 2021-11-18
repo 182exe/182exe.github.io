@@ -311,19 +311,20 @@ hr.rounded:hover {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px transparent; 
-  border-radius: 10px;
+  box-shadow: inset 0 0 2px #0D0C13;
+  border-radius: 5px;
+  background: #242131;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #AE2DD1; 
+  background: #AE2DD1;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #6A15A1; 
+  background: #6A15A1;
 }
 
 @keyframes bounce {
