@@ -16,6 +16,7 @@
   text-shadow:0px 3px 5px #AE2DD170;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
 }
 .heading1purple:hover {
   font-size:32px;
@@ -23,6 +24,7 @@
   transition: all 0.3s ease;
   animation: bounce 1s;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Big White Title Text */
@@ -36,6 +38,7 @@
   text-shadow:0px 3px 5px #000000;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
 }
 .heading1white:hover {
   font-size:21px;
@@ -43,6 +46,7 @@
   transition: all 0.3s ease;
   animation: bounce 1s;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Heading Two */
@@ -59,6 +63,7 @@
   text-shadow:0px 3px 3px #AE2DD170;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
 }
 .heading2purple:hover {
   text-shadow:0px 3px 3px #AE2DD180;
@@ -66,6 +71,7 @@
   transition: all 0.3s ease;
   animation: bounce 1s;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Heading Two Purple Ver */
@@ -78,6 +84,7 @@
   text-shadow:0px 3px 5px #000000;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
 }
 .heading2white:hover {
   text-shadow:0px 3px 7px #000000;
@@ -85,6 +92,7 @@
   transition: all 0.3s ease;
   animation: bounce 1s;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Normal White Text*/
@@ -97,12 +105,14 @@
   text-shadow:0px 2px 5px #000000;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
 }
 .heading3:hover {
   text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
   transition: all 0.3s ease;
   animation: fly 1s;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Normal White Text Right Alignment */
@@ -115,11 +125,13 @@
   text-shadow:0px 2px 5px #000000;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
 }
 .heading3right:hover {
   text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Small White Text */
@@ -132,12 +144,14 @@
   text-shadow:0px 2px 4px #000000;
   transition: all 0.3s ease;
   text-decoration: none;
+  font-style: normal;
   
 }
 .heading4 {
   text-shadow: 0px 2px 6px #000000;
   animation: fly 1s;
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Center Align Stuff Using This (i dont use rn idk) */
