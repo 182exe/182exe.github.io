@@ -10,35 +10,39 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:30px;
   text-align:center;
   text-shadow:0px 3px 5px #AE2DD170;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 .heading1purple:hover {
   font-size:32px;
   text-shadow:0px 3px 5px #AE2DD1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: bounce 1s;
+  text-decoration: none;
 }
 
 /* Big White Title Text */
 .heading1white {
   background-color:transparent;
   color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:20px;
   text-align:center;
   line-height:0.0;
   text-shadow:0px 3px 5px #000000;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 .heading1white:hover {
   font-size:21px;
   text-shadow:0px 3px 7px #000000;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: bounce 1s;
+  text-decoration: none;
 }
 
 /* Heading Two */
@@ -49,81 +53,91 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:14px;
   text-align:center;
   text-shadow:0px 3px 3px #AE2DD170;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 .heading2purple:hover {
   text-shadow:0px 3px 3px #AE2DD180;
   font-size:15px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: bounce 1s;
+  text-decoration: none;
 }
 
 /* Heading Two Purple Ver */
 .heading2white {
   background-color:transparent;
   color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:10px;
   text-align:center;
   text-shadow:0px 3px 5px #000000;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 .heading2white:hover {
   text-shadow:0px 3px 7px #000000;
   font-size:11px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: bounce 1s;
+  text-decoration: none;
 }
 
 /* Normal White Text*/
 .heading3 {
   background-color:transparent;
   color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:8px;
   text-align:center;
   text-shadow:0px 2px 5px #000000;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 .heading3:hover {
   text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: fly 1s;
+  text-decoration: none;
 }
 
 /* Normal White Text Right Alignment */
 .heading3right {
   background-color:transparent;
   color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:8px;
   text-align:right;
   text-shadow:0px 2px 5px #000000;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 .heading3right:hover {
   text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 /* Small White Text */
 .heading4 {
   background-color:transparent;
   color: white;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:10px;
   text-align:center;
   text-shadow:0px 2px 4px #000000;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  text-decoration: none;
   
 }
 .heading4 {
   text-shadow: 0px 2px 6px #000000;
   animation: fly 1s;
+  text-decoration: none;
 }
 
 /* Center Align Stuff Using This (i dont use rn idk) */
@@ -132,6 +146,15 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.crazyimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  animation: crazy 1s;
+  animation-iteration-count: infinite;
 }
 
 /* Button Glowy owo */
@@ -148,70 +171,83 @@
   text-decoration: bold;
   display: block;
   font-size: 14px;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   text-shadow:0px 2px 3px #000000;
   margin-left: auto;
   margin-right: auto;
   box-shadow:0px 0px 10px #AE2DD180;
   border-radius:20px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 }
 .button1:hover {
   padding: 13px 40px;
   box-shadow:0px 0px 15px #AE2DD180;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: bounce 1s;
+}
+
+.button1:active {
+  padding: 13px 40px;
+  box-shadow:0px 0px 15px #AE2DD180;
+  transition: all 0.3s ease;
+  animation: fly 1s;
 }
 
 
 /* Link Formatting */
 a:link {
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:14px;
   text-align:center;
   text-shadow:0px 2px 3px #AE2DD170;
   color: #AE2DD1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 }
 a:visited {
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:14px;
   text-align:center;
   text-shadow:0px 2px 3px #AE2DD170;
-  text-decoration: bold;
   color: #AE2DD1;
 }
 a:hover {
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:14px;
   text-align:center;
   text-shadow:0px 2px 4px #AE2DD1;
-  text-decoration: bold;
   color: #AE2DD1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: fly 1s;
 }
 a:active {
   color: #AE2DD1;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size:14px;
   text-align:center;
   text-shadow:0px 2px 3px #AE2DD170;
-  text-decoration: bold;
 }
 
 /* Generic Element Formatting */
 body {
   background-image: linear-gradient(135deg, #242131, #0D0C13);
+  text-decoration: none;
 }
 
 img {
   border: 5px solid #AE2DD1;
   border-radius: 40px;
-  box-shadow: 0px 5px 20px #AE2DD1;
+  box-shadow: 0px 0px 20px #AE2DD1;
+  background-image: linear-gradient(#AE2DD1, #6A15A1);
+  -webkit-background-clip: box;
+  -moz-background-clip: box;
+  -webkit-box-fill-color: transparent;
+  -moz-box-fill-color: transparent;
+  transition: all 0.3s ease;
 }
 img:hover {
-  animation: bounce 1s;
+  border: 5px solid #6A15A1;
+  box-shadow: 0px 0px 20px #6A15A1;
+  transition: all 0.3s ease;
 }
 
 iframe {
@@ -223,7 +259,7 @@ iframe {
   -moz-background-clip: box;
   -webkit-box-fill-color: transparent;
   -moz-box-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -232,7 +268,7 @@ iframe {
 iframe:hover {
   border: 5px solid #6A15A1;
   box-shadow: 0px 0px 20px #6A15A1;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: bounce 1s;
 }
 html {
@@ -257,51 +293,13 @@ html {
 hr.rounded {
   border: 2px solid #ffffff;
   border-radius: 2px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
 }
 hr.rounded:hover {
   border: 2px solid #ffffff;
   border-radius: 2px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
   animation: fly 1s;
-}
-
-
-.btn-group button {
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: box;
-  -moz-background-clip: box;
-  -webkit-box-fill-color: transparent;
-  -moz-box-fill-color: transparent;
-  color: white;
-  border:none;
-  padding: 13px 28px;
-  text-align: center;
-  text-decoration: bold;
-  display: block;
-  font-size: 14px;
-  font-family: 'Assistant', 'Tahoma', sans-serif;
-  text-shadow:0px 2px 3px #000000;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 0.3s ease-in-out;
-  float: left;
-  border-radius: 20px;
-  width: 50%;
-}
-
-/* Clear floats (clearfix hack) */
-.btn-group:after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Add a background color on hover */
-.btn-group button:hover {
-  padding: 13px 40px;
-  box-shadow:0px 0px 10px #AE2DD180;
-  transition: all 0.3s ease-in-out;
 }
 
 /* scrollbar stuff */
@@ -312,8 +310,7 @@ hr.rounded:hover {
 /* Track */
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 2px #0D0C13;
-  border-radius: 5px;
-  background: #242131;
+  background: #0D0C13;
 }
  
 /* Handle */
@@ -340,5 +337,13 @@ hr.rounded:hover {
   25% { transform: translate(0px,-1.5px) rotate(0.5deg); }
   50% { transform: translate(0px,0.6px) rotate(-0.5deg); }
   75% { transform: translate(0px 0px) rotate(0deg); }
+  100% { transform: translate(0px,0px) rotate(0deg); }
+}
+
+@keyframes crazy {
+  0% { transform: translate(0px,0px) rotate(0deg); }
+  25% { transform: translate(0px,0px) rotate(360deg); }
+  50% { transform: translate(0px,0px) rotate(0deg); }
+  75% { transform: translate(0px,0px) rotate(-360deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
