@@ -82,10 +82,31 @@ var quotes = [
   "hUeShIfT mOrE -Pack Community Members",
   "Skill Issue -Discord",
   "Scientific Name for Pig? -Sus",
-]
+];
 
-/* Give HTML a quote in a variable that it can execute */
+// Create clientside array that will be used to store already used quote IDs //
+const usedQuotes = [];
+
+// Create a variable to show how many quotes there was generated //
+var quotesUsed = 0;
+
+// New Quote Function (checks for already used quotes using the usedQuotes //
 function newQuote() {
+  
+  // Generate a random number //
   var randomNumber = Math.floor(Math.random() * (quotes.length));
+  
+  // While the random number generated is in usedQuotes, generate a new number so as there is not any repeats //
+  while (usedQuotes.includes(randomNumber)) {
+    randomNumber = Math.floor(Math.random() * (quotes.length));
+  }
+  
+  // Add 1 to the amount of quotes used //
+  var quotesUsed = quotesUsed + 1;
+  
+  // Add the number that the random value chose to usedQuotes //
+  usedQuotes.push(randomNumber);
+  
+  // Give HTML the quote based on the value of the random number //
   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
 }
