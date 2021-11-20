@@ -82,6 +82,7 @@ var quotes = [
   "hUeShIfT mOrE -Pack Community Members",
   "Skill Issue -Discord",
   "Scientific Name for Pig? -Sus",
+  "You should always be wary of your surroundings... -Blazn",
 ];
 
 // Create clientside array that will be used to store already used quote IDs //
