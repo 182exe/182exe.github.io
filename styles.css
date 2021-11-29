@@ -14,18 +14,18 @@
   font-size:30px;
   text-align:center;
   text-shadow:0px 3px 5px #AE2DD170;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
 }
 .heading1purple:hover {
-  font-size:32px;
+  font-size:35px;
   text-shadow:0px 3px 5px #AE2DD1;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
-  letter-spacing: 25px;
+  letter-spacing: 5px;
 }
 
 /* Big White Title Text */
@@ -37,18 +37,18 @@
   text-align:center;
   line-height:0.0;
   text-shadow:0px 3px 5px #000000;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
 }
 .heading1white:hover {
-  font-size:21px;
+  font-size:23px;
   text-shadow:0px 3px 7px #000000;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
-  letter-spacing: 25px;
+  letter-spacing: 5px;
 }
 
 /* Heading Two */
@@ -63,17 +63,18 @@
   font-size:14px;
   text-align:center;
   text-shadow:0px 3px 3px #AE2DD170;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
 }
 .heading2purple:hover {
   text-shadow:0px 3px 3px #AE2DD180;
   font-size:15px;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 3px;
 }
 
 /* Heading Two Purple Ver */
@@ -84,17 +85,18 @@
   font-size:10px;
   text-align:center;
   text-shadow:0px 3px 5px #000000;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
 }
 .heading2white:hover {
   text-shadow:0px 3px 7px #000000;
-  font-size:11px;
-  transition: all 0.3s ease;
+  font-size:13px;
+  transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 3px;
 }
 
 /* Normal White Text*/
@@ -105,16 +107,17 @@
   font-size:8px;
   text-align:center;
   text-shadow:0px 2px 5px #000000;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
 }
 .heading3:hover {
   text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   animation: fly 1s;
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 1px;
 }
 
 /* Normal White Text Right Alignment */
@@ -125,15 +128,16 @@
   font-size:8px;
   text-align:right;
   text-shadow:0px 2px 5px #000000;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
 }
 .heading3right:hover {
   text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
-  transition: all 0.3s ease;
+  transition: all 1s ease;
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 1px;
 }
 
 /* Small White Text */
@@ -144,16 +148,17 @@
   font-size:10px;
   text-align:center;
   text-shadow:0px 2px 4px #000000;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
   
 }
-.heading4 {
+.heading4:hover {
   text-shadow: 0px 2px 6px #000000;
   animation: fly 1s;
   text-decoration: none;
   font-style: normal;
+  letter-spacing: 1px;
 }
 
 /* Center Align Stuff Using This (i dont use rn idk) */
@@ -169,7 +174,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  animation: crazy 1s;
+  animation: crazy 0.6s;
   animation-iteration-count: infinite;
 }
 
@@ -196,7 +201,7 @@
   transition: all 0.3s ease;
 }
 .button1:hover {
-  padding: 13px 40px;
+  padding: 13px 70px;
   box-shadow:0px 0px 15px #AE2DD180;
   transition: all 0.3s ease;
   animation: bounce 1s;
@@ -217,7 +222,7 @@ a:link {
   text-align:center;
   text-shadow:0px 2px 3px #AE2DD170;
   color: #AE2DD1;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
 }
 a:visited {
   font-family: 'Abel', sans-serif;
@@ -232,8 +237,8 @@ a:hover {
   text-align:center;
   text-shadow:0px 2px 4px #AE2DD1;
   color: #AE2DD1;
-  transition: all 0.3s ease;
-  animation: fly 1s;
+  transition: all 0.6s ease;
+  animation: fly 0.6s;
 }
 a:active {
   color: #AE2DD1;
@@ -247,6 +252,7 @@ a:active {
 body {
   background-image: linear-gradient(135deg, #242131, #0D0C13);
   text-decoration: none;
+  background-
 }
 
 img {
@@ -284,7 +290,7 @@ iframe {
 iframe:hover {
   border: 5px solid #6A15A1;
   box-shadow: 0px 0px 20px #6A15A1;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
   animation: bounce 1s;
 }
 html {
@@ -309,13 +315,13 @@ html {
 hr.rounded {
   border: 2px solid #ffffff;
   border-radius: 2px;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
 }
 hr.rounded:hover {
   border: 2px solid #ffffff;
   border-radius: 2px;
-  transition: all 0.3s ease;
-  animation: fly 1s;
+  transition: all 0.6s ease;
+  animation: fly 0.6s;
 }
 
 /* scrollbar stuff */
@@ -342,24 +348,16 @@ hr.rounded:hover {
 
 @keyframes bounce {
   0% { transform: translate(0px,0px) rotate(0deg); }
-  25% { transform: translate(0px,-3px) rotate(-1deg); }
-  50% { transform: translate(0px,2px) rotate(1deg); }
+  25% { transform: translate(0px,-4px) rotate(0deg); }
+  50% { transform: translate(0px,4px) rotate(0deg); }
   75% { transform: translate(0px 0px) rotate(0deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
 
 @keyframes fly {
   0% { transform: translate(0px,0px) rotate(0deg); }
-  25% { transform: translate(0px,-1.5px) rotate(0.5deg); }
-  50% { transform: translate(0px,0.6px) rotate(-0.5deg); }
+  25% { transform: translate(0px,-2px) rotate(0deg); }
+  50% { transform: translate(0px,2px) rotate(0deg); }
   75% { transform: translate(0px 0px) rotate(0deg); }
-  100% { transform: translate(0px,0px) rotate(0deg); }
-}
-
-@keyframes crazy {
-  0% { transform: translate(0px,0px) rotate(0deg); }
-  25% { transform: translate(0px,0px) rotate(360deg); }
-  50% { transform: translate(0px,0px) rotate(0deg); }
-  75% { transform: translate(0px,0px) rotate(-360deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
