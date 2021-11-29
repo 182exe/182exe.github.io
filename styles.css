@@ -250,9 +250,8 @@ a:active {
 
 /* Generic Element Formatting */
 body {
-  background-image: linear-gradient(135deg, #242131, #0D0C13);
+  background-image: linear-gradient(90deg, #0D0C13, #242131, #0D0C13);
   text-decoration: none;
-  background-
 }
 
 img {
