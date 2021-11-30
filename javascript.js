@@ -82,7 +82,6 @@ var quotes = [
   "hUeShIfT mOrE -Pack Community Members",
   "Skill Issue -Discord",
   "Scientific Name for Pig? -Sus",
-  "You should always be wary of your surroundings... -Blazn",
 ];
 
 // Create clientside array that will be used to store already used quote IDs //
@@ -110,4 +109,39 @@ function newQuote() {
   
   // Give HTML the quote based on the value of the random number //
   document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+}
+
+//scrolling
+function scrollHome() {
+  var elem = document.getElementById("home");
+  elem.scrollIntoView();
+}
+
+function scrollSocials() {
+  var elem = document.getElementById("socials");
+  elem.scrollIntoView();
+}
+
+function scrollProjects() {
+  var elem = document.getElementById("projects");
+  elem.scrollIntoView();
+}
+
+//sticky
+// When the user scrolls the page, execute sticky
+window.onscroll = function() {sticky()};
+
+// Get the navbar
+var topnav = document.getElementById("topnav");
+
+// Get the offset position of the navbar
+var sticky = topnav.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function sticky() {
+  if (window.pageYOffset >= sticky) {
+    topnav.classList.add("sticky")
+  } else {
+    topnav.classList.remove("sticky");
+  }
 }
