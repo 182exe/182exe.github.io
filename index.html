@@ -22,9 +22,17 @@
 <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
 </head>
 
-<!-- Page Content (Body) -->
 <body onLoad="javascript:newQuote()">
-<div class="heading1purple">
+
+<!--Nav Bar-->
+<div class="topnav" id="topnav">
+  <a class="active" onclick="javascript:scrollHome()">Home</a>
+  <a onclick="javascript:scrollSocials()">Socials</a>
+  <a onclick="javascript:scrollProjects() ">Projects</a>
+</div>
+
+<!-- Page Content (Body) -->
+<div class="heading1purple" id="home">
   <h1>182exe</h1>
 </div>
 
@@ -32,7 +40,7 @@
 <hr class="rounded">
 <br>
 
-<div class="heading1white">
+<div class="heading1white" id="socials">
   <h1>Socials</h1>
 </div>
 <div class="heading2white">
@@ -110,7 +118,7 @@
 <hr class="rounded">
 <br>
 
-<div class="heading1white">
+<div class="heading1white" id="projects">
   <h1>Other Projects</h1>
 </div>
 <div class="heading2white">
