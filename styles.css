@@ -82,7 +82,7 @@
   background-color:transparent;
   color: white;
   font-family: 'Abel', sans-serif;
-  font-size:10px;
+  font-size:12px;
   text-align:center;
   text-shadow:0px 3px 5px #000000;
   transition: all 0.6s ease;
@@ -91,12 +91,12 @@
 }
 .heading2white:hover {
   text-shadow:0px 3px 7px #000000;
-  font-size:13px;
+  font-size:14px;
   transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 /* Normal White Text*/
