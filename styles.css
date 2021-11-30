@@ -302,11 +302,13 @@ html {
   background: #AE2DD180;
   border-radius: 4px;
   border: none;
+  transition: all 0.6s ease;
 }
 ::selection {
   color: white;
   background: #AE2DD180;
   border: none;
+  transition: all 0.6s ease;
   border-radius: 4px;
 }
 
@@ -314,6 +316,7 @@ html {
 hr.rounded {
   border: 2px solid #ffffff;
   border-radius: 2px;
+  background: white;
   transition: all 0.6s ease;
 }
 hr.rounded:hover {
@@ -343,6 +346,51 @@ hr.rounded:hover {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #6A15A1;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #transparent;
+  font-family: 'Abel', sans-serif;
+  overflow: hidden;
+  transition: all 0.6s ease;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 24px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.6s ease;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color:transparent;
+  font-family: 'Abel', sans-serif;
+  color: #AE2DD1;
+  transition: all 0.6s ease;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: transparent;
+  font-family: 'Abel', sans-serif;
+  color: #AE2DD1;
+  transition: all 0.6s ease;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 @keyframes bounce {
