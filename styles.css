@@ -350,12 +350,13 @@ hr.rounded:hover {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #transparent;
+  background-color: transparent;
   font-family: 'Abel', sans-serif;
   overflow: hidden;
   transition: all 0.6s ease;
-  border-bottom: 2px solid white;
-  border-top: 2px solid white;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -386,11 +387,9 @@ hr.rounded:hover {
   transition: all 0.6s ease;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.content {
+  transition: all 0.6s ease;
+  font-family: 'Abel', sans-serif;
 }
 
 @keyframes bounce {
