@@ -24,15 +24,9 @@
 
 <body onLoad="javascript:newQuote()">
 
-<!--Nav Bar-->
-<div class="topnav" id="topnav">
-  <a class="active" onclick="javascript:scrollHome()">Home</a>
-  <a onclick="javascript:scrollSocials()">Socials</a>
-  <a onclick="javascript:scrollProjects() ">Projects</a>
-</div>
-
 <!-- Page Content (Body) -->
 <div class="content">
+  <canvas id="canvas" width="auto" height="50px" class="bgcanvas"></canvas>
   <div class="heading1purple" id="home">
     <h1>182exe</h1>
   </div>
@@ -131,7 +125,7 @@
   <br>
   
   <!-- Quote Generator Using javascript -->
-  <div class="heading2white">
+  <div class="heading2white" id="quotegen">
     <h1>Quote Generator</h1>
   </div>
   <div class="heading3">
@@ -145,7 +139,7 @@
   <hr>
   <br>
   
-  <div class="heading2white">
+  <div class="heading2white" id="darktyper">
     <h1>Darktyper</h1>
   </div>
   <div class="heading3">
@@ -159,7 +153,7 @@
   <hr>
   <br>
   
-  <div class="heading2white">
+  <div class="heading2white" id="matrix">
     <h1>Matrix</h1>
   </div>
   <div class="heading3">
@@ -175,6 +169,7 @@
   <div class="heading3right">
     <h1>Made by 182exe</h1>
   </div>
+  <br>
 </div>
 </body>
 </html>
