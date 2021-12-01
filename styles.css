@@ -20,12 +20,12 @@
 }
 .heading1purple:hover {
   font-size:35px;
-  text-shadow:0px 3px 5px #AE2DD1;
+  text-shadow:0px 0px 5px #AE2DD1;
   transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
-  letter-spacing: 5px;
+  letter-spacing: 8px;
 }
 
 /* Big White Title Text */
@@ -252,6 +252,8 @@ a:active {
 body {
   background-image: linear-gradient(90deg, #0D0C13, #242131, #0D0C13);
   text-decoration: none;
+  background-attachment: fixed;
+
 }
 
 img {
@@ -348,48 +350,15 @@ hr.rounded:hover {
   background: #6A15A1;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-  background-color: transparent;
-  font-family: 'Abel', sans-serif;
-  overflow: hidden;
-  transition: all 0.6s ease;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  font-family: 'Abel', sans-serif;
-  color: white;
-  text-align: center;
-  padding: 14px 24px;
-  text-decoration: none;
-  font-size: 17px;
-  transition: all 0.6s ease;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color:transparent;
-  font-family: 'Abel', sans-serif;
-  color: #AE2DD1;
-  transition: all 0.6s ease;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: transparent;
-  font-family: 'Abel', sans-serif;
-  color: #AE2DD1;
-  transition: all 0.6s ease;
-}
-
 .content {
   transition: all 0.6s ease;
   font-family: 'Abel', sans-serif;
+  z-index: 3;
+}
+.bgcanvas {
+  z-index: 1;
+  position: fixed;
+  top: 650px;
 }
 
 @keyframes bounce {
