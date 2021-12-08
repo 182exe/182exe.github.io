@@ -41,6 +41,20 @@
   text-decoration: none;
   font-style: normal;
 }
+
+.alertwhite {
+  background-color:transparent;
+  color: white;
+  font-family: 'Abel', sans-serif;
+  font-size:10px;
+  text-align:center;
+  line-height:0.0;
+  text-shadow:0px 3px 5px #000000;
+  transition: all 0.6s ease;
+  text-decoration: none;
+  font-style: normal;
+}
+
 .heading1white:hover {
   font-size:23px;
   text-shadow:0px 3px 7px #000000;
@@ -214,6 +228,32 @@
   animation: fly 1s;
 }
 
+/* The alert message box */
+.alert {
+  background-image: linear-gradient(#AE2DD1, #6A15A1);
+  -webkit-background-clip: box;
+  -moz-background-clip: box;
+  -webkit-box-fill-color: transparent;
+  -moz-box-fill-color: transparent;
+  color: white;
+  border:none;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  text-decoration: bold;
+  display: block;
+  box-shadow:0px 0px 10px #AE2DD180;
+  border-radius:20px;
+  transition: all 0.3s ease;
+  position: fixed;
+  animation: ambient 5s;
+  animation-iteration-count: infinite;
+}
+.alert:hover {
+  box-shadow:0px 0px 15px #AE2DD1;
+  transition: all 0.3s ease;
+}
+
 
 /* Link Formatting */
 a:link {
@@ -356,7 +396,6 @@ hr.rounded:hover {
   z-index: 3;
 }
 .bgcanvas {
-  z-index: 1;
   position: fixed;
   top: 650px;
 }
@@ -374,5 +413,14 @@ hr.rounded:hover {
   25% { transform: translate(0px,-2px) rotate(0deg); }
   50% { transform: translate(0px,2px) rotate(0deg); }
   75% { transform: translate(0px 0px) rotate(0deg); }
+  100% { transform: translate(0px,0px) rotate(0deg); }
+}
+
+@keyframes ambient {
+  0% { transform: translate(0px,0px) rotate(0deg); }
+  20% { transform: translate(0px,0px) rotate(1deg); }
+  40% { transform: translate(0px,0px) rotate(-1deg); }
+  60% { transform: translate(0px 0px) rotate(1deg); }
+  80% { transform: translate(0px 0px) rotate(-1deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
