@@ -24,9 +24,14 @@
 
 <body onLoad="javascript:newQuote()">
 
+<canvas id="canvas" width="auto" height="50px" class="bgcanvas"></canvas>
+
+<div class="alert" id="alert" onclick="this.style.display='none';">
+  <h1 class="alertwhite" style="font-size:19px">You're offline. Try checking your internet settings.</h1>
+</div>
+
 <!-- Page Content (Body) -->
 <div class="content">
-  <canvas id="canvas" width="auto" height="50px" class="bgcanvas"></canvas>
   <div class="heading1purple" id="home">
     <h1>182exe</h1>
   </div>
@@ -169,7 +174,6 @@
   <div class="heading3right">
     <h1>Made by 182exe</h1>
   </div>
-  <br>
   <br>
   <br>
   <br>
