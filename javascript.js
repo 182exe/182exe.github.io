@@ -137,11 +137,19 @@ function draw(delta) {
     
     // ctx.lineTo(canvas.width, randomRight);
     ctx.bezierCurveTo(canvas.width / 3, randomLeftConstraint, canvas.width / 3 * 2, randomRightConstraint, canvas.width, randomRight);
-    ctx.lineTo(canvas.width , canvas.height * 0.5);
-    ctx.lineTo(0, canvas.height * 0.5);
+    ctx.lineTo(canvas.width , canvas.height - 600);
+    ctx.lineTo(0, canvas.height - 600);
     ctx.lineTo(0, randomLeft);
     
     ctx.closePath();
     ctx.fill();
 }
 requestAnimationFrame(draw);
+
+let offline = navigator.onLine;
+var offlineAlert = document.getElementById('alert');
+if (offline === true) {
+  offlineAlert.style.display = "none";
+} else {
+  offlineAlert.style.display = "block";
+}
