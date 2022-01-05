@@ -293,7 +293,10 @@ body {
   background-image: linear-gradient(90deg, #0D0C13, #242131, #0D0C13);
   text-decoration: none;
   background-attachment: fixed;
-  margin: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%
 }
 
 img {
