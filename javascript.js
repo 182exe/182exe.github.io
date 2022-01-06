@@ -122,21 +122,21 @@ var date = Date.now();
 function draw(delta) {
     requestAnimationFrame(draw);
     canvas.width = canvas.width;
-    var grd = ctx.createLinearGradient(0, 90, 1500, 0);
-      grd.addColorStop(0, "#AE2DD170");
-      grd.addColorStop(1, "#6A15A170");
+    var grd = ctx.createLinearGradient(0, 90, 1200, 0);
+      grd.addColorStop(0, "#AE2DD1");
+      grd.addColorStop(1, "#6A15A1");
     ctx.fillStyle = grd;
     
-    var randomLeft = Math.abs(Math.pow( Math.sin(delta/1000), 3 )) * 200;
-    var randomRight = Math.abs(Math.pow( Math.sin((delta/1000) + 10), 2 )) * 200;
-    var randomLeftConstraint = Math.abs(Math.pow( Math.sin((delta/1000)+2), 2 )) * 200;
-    var randomRightConstraint = Math.abs(Math.pow( Math.sin((delta/1000)+1), 2)) * 200;
+    var randomLeft = Math.abs(Math.pow( Math.sin(delta/1000), 3 )) * 100;
+    var randomRight = Math.abs(Math.pow( Math.sin((delta/1000) + 10), 2 )) * 100;
+    var randomLeftConstraint = Math.abs(Math.pow( Math.sin((delta/1000)+2), 2 )) * 100;
+    var randomRightConstraint = Math.abs(Math.pow( Math.sin((delta/1000)+1), 2)) * 100;
     
     ctx.beginPath();
     ctx.moveTo(0, randomLeft);
     
     //ctx.lineTo(canvas.width, randomRight);
-    ctx.bezierCurveTo(canvas.width / 3, randomLeftConstraint, canvas.width / 3 * 2, randomRightConstraint, canvas.width, randomRight);
+    ctx.bezierCurveTo(canvas.width / 3, randomLeftConstraint, canvas.width / 6 * 4, randomRightConstraint, canvas.width, randomRight);
     ctx.lineTo(canvas.width , canvas.height - 200);
     ctx.lineTo(0, canvas.height - 200);
     ctx.lineTo(0, randomLeft);
