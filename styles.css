@@ -17,6 +17,8 @@
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .heading1purple:hover {
   font-size:35px;
@@ -26,6 +28,8 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 8px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Big White Title Text */
@@ -40,6 +44,8 @@
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .alertwhite {
@@ -63,6 +69,8 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Heading Two */
@@ -80,6 +88,8 @@
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .heading2purple:hover {
   text-shadow:0px 3px 3px #AE2DD180;
@@ -89,6 +99,8 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 3px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Heading Two Purple Ver */
@@ -102,6 +114,8 @@
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .heading2white:hover {
   text-shadow:0px 3px 7px #000000;
@@ -111,6 +125,8 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 2px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Normal White Text*/
@@ -124,6 +140,8 @@
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .heading3:hover {
   text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
@@ -132,6 +150,8 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Normal White Text Right Alignment */
@@ -144,6 +164,8 @@
   text-shadow:0px 2px 5px #000000;
   transition: all 0.6s ease;
   text-decoration: none;
+  margin-left: 10%;
+  margin-right: 10%;
   font-style: normal;
 }
 .heading3right:hover {
@@ -152,6 +174,8 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Small White Text */
@@ -165,6 +189,8 @@
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
+  margin-left: 10%;
+  margin-right: 10%;
   
 }
 .heading4:hover {
@@ -173,6 +199,8 @@
   text-decoration: none;
   font-style: normal;
   letter-spacing: 1px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* Center Align Stuff Using This (i dont use rn idk) */
@@ -219,6 +247,7 @@
   box-shadow:0px 0px 15px #AE2DD180;
   transition: all 0.3s ease;
   animation: bounce 1s;
+  cursor: pointer;
 }
 
 .button1:active {
@@ -226,6 +255,7 @@
   box-shadow:0px 0px 15px #AE2DD180;
   transition: all 0.3s ease;
   animation: fly 1s;
+  cursor: pointer;
 }
 
 /* The alert message box */
@@ -252,6 +282,7 @@
 .alert:hover {
   box-shadow:0px 0px 15px #AE2DD1;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 
@@ -279,6 +310,7 @@ a:hover {
   color: #AE2DD1;
   transition: all 0.6s ease;
   animation: fly 0.6s;
+  cursor: pointer;
 }
 a:active {
   color: #AE2DD1;
@@ -293,10 +325,6 @@ body {
   background-image: linear-gradient(90deg, #0D0C13, #242131, #0D0C13);
   text-decoration: none;
   background-attachment: fixed;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 5%;
-  margin-bottom: 5%
 }
 
 img {
@@ -363,12 +391,32 @@ hr.rounded {
   border-radius: 2px;
   background: white;
   transition: all 0.6s ease;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 hr.rounded:hover {
   border: 2px solid #ffffff;
   border-radius: 2px;
   transition: all 0.6s ease;
   animation: fly 0.6s;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+hr {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background: white;
+  transition: all 0.6s ease;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+hr:hover {
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  transition: all 0.6s ease;
+  animation: fly 0.6s;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 /* scrollbar stuff */
@@ -400,7 +448,11 @@ hr.rounded:hover {
 }
 .bgcanvas {
   position: fixed;
-  top: 500px;
+  top: 80%;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 @keyframes bounce {
