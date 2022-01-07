@@ -322,7 +322,7 @@ a:active {
 
 /* Generic Element Formatting */
 body {
-  background-image: linear-gradient(90deg, #0D0C13, #242131, #0D0C13);
+  background-image: linear-gradient(90deg, #07060d, #232127, #07060d);
   text-decoration: none;
   background-attachment: fixed;
 }
@@ -426,8 +426,8 @@ hr:hover {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 2px #0D0C13;
-  background: #0D0C13;
+  box-shadow: inset 0 0 2px #07060d;
+  background: #07060d;
 }
  
 /* Handle */
