@@ -82,6 +82,11 @@ var quotes = [
   "hUeShIfT mOrE -Pack Community Members",
   "Skill Issue -Discord",
   "Scientific Name for Pig? -Sus",
+  "Hello there -Josh",
+  "It\'s over anakin, I have the high ground! -Darth Vader"
+  "wtf -wtf",
+  "amongus could be the last remendents of humanity and aliens will look at the massiv statue and think that it was our god. -182exe",
+  "Dial 911 for emergencies in the US -all",
 ];
 
 // Create clientside array that will be used to store already used quote IDs //
