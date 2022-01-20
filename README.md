@@ -9,3 +9,4 @@
 - Quote Generator
 - Darktyper
 - Matrix Tab Spammer
+- Jibbertyper
