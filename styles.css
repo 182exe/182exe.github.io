@@ -1,206 +1,155 @@
-/* CSS Formatting */
-/* All Code is Mine */
-/* Thank you w3schools */
-
 /* Big Title Text */
 .heading1purple {
   background-color:transparent;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-family: 'Abel', sans-serif;
-  font-size:30px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size:60px;
   text-align:center;
-  text-shadow:0px 3px 5px #AE2DD170;
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-shadow: 0px 2px 5px #00000090;
 }
 .heading1purple:hover {
-  font-size:35px;
-  text-shadow:0px 0px 5px #AE2DD1;
   transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 8px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
-/* Big White Title Text */
+/* Big coom Title Text */
 .heading1white {
   background-color:transparent;
-  color: white;
-  font-family: 'Abel', sans-serif;
-  font-size:20px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size:40px;
   text-align:center;
   line-height:0.0;
-  text-shadow:0px 3px 5px #000000;
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-shadow: 0px 2px 5px #00000090;
 }
 
 .alertwhite {
   background-color:transparent;
-  color: white;
-  font-family: 'Abel', sans-serif;
-  font-size:10px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size:20px;
   text-align:center;
   line-height:0.0;
-  text-shadow:0px 3px 5px #000000;
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
+  text-shadow: 0px 2px 5px #00000090;
 }
 
 .heading1white:hover {
-  font-size:23px;
-  text-shadow:0px 3px 7px #000000;
   transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Heading Two */
 .heading2purple {
   background-color:transparent;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-family: 'Abel', sans-serif;
-  font-size:14px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size:28px;
   text-align:center;
-  text-shadow:0px 3px 3px #AE2DD170;
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-shadow: 0px 2px 5px #00000090;
 }
 .heading2purple:hover {
-  text-shadow:0px 3px 3px #AE2DD180;
-  font-size:15px;
   transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 3px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Heading Two Purple Ver */
 .heading2white {
   background-color:transparent;
-  color: white;
-  font-family: 'Abel', sans-serif;
-  font-size:12px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size:24px;
   text-align:center;
-  text-shadow:0px 3px 5px #000000;
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-shadow: 0px 2px 5px #00000090;
 }
 .heading2white:hover {
-  text-shadow:0px 3px 7px #000000;
-  font-size:14px;
   transition: all 0.6s ease;
   animation: bounce 1s;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 2px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Normal White Text*/
 .heading3 {
   background-color:transparent;
-  color: white;
-  font-family: 'Abel', sans-serif;
-  font-size:8px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 16px;
   text-align:center;
-  text-shadow:0px 2px 5px #000000;
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-shadow: 0px 2px 5px #00000090;
 }
 .heading3:hover {
-  text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
   transition: all 0.6s ease;
   animation: fly 1s;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 1px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Normal White Text Right Alignment */
 .heading3right {
   background-color:transparent;
-  color: white;
-  font-family: 'Abel', sans-serif;
-  font-size:8px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 16px;
   text-align:right;
-  text-shadow:0px 2px 5px #000000;
   transition: all 0.6s ease;
   text-decoration: none;
-  margin-left: 10%;
-  margin-right: 10%;
   font-style: normal;
+  text-shadow: 0px 2px 5px #00000090;
 }
 .heading3right:hover {
-  text-shadow:0px 2px 5px #000000,0px 2px 5px #AE2DD1;
   transition: all 1s ease;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 1px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Small White Text */
 .heading4 {
   background-color:transparent;
-  color: white;
-  font-family: 'Abel', sans-serif;
-  font-size:10px;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size:20px;
   text-align:center;
-  text-shadow:0px 2px 4px #000000;
   transition: all 0.6s ease;
   text-decoration: none;
   font-style: normal;
-  margin-left: 10%;
-  margin-right: 10%;
+  text-shadow: 0px 2px 5px #00000090;
   
 }
 .heading4:hover {
-  text-shadow: 0px 2px 6px #000000;
   animation: fly 1s;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 1px;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 /* Center Align Stuff Using This (i dont use rn idk) */
@@ -218,33 +167,29 @@
   width: 50%;
   animation: crazy 0.6s;
   animation-iteration-count: infinite;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 
 /* Button Glowy owo */
 .button1 {
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: box;
-  -moz-background-clip: box;
-  -webkit-box-fill-color: transparent;
-  -moz-box-fill-color: transparent;
-  color: white;
-  border:none;
+  background-color: transparent;
+  color: #Cd00ff;
+  border: 3px solid #Cd00ff;
   padding: 13px 28px;
   text-align: center;
-  text-decoration: bold;
   display: block;
   font-size: 14px;
-  font-family: 'Abel', sans-serif;
-  text-shadow:0px 2px 3px #000000;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   margin-left: auto;
   margin-right: auto;
-  box-shadow:0px 0px 10px #AE2DD180;
   border-radius:20px;
   transition: all 0.3s ease;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 .button1:hover {
   padding: 13px 70px;
-  box-shadow:0px 0px 15px #AE2DD180;
   transition: all 0.3s ease;
   animation: bounce 1s;
   cursor: pointer;
@@ -252,7 +197,6 @@
 
 .button1:active {
   padding: 13px 40px;
-  box-shadow:0px 0px 15px #AE2DD180;
   transition: all 0.3s ease;
   animation: fly 1s;
   cursor: pointer;
@@ -260,27 +204,23 @@
 
 /* The alert message box */
 .alert {
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: box;
-  -moz-background-clip: box;
-  -webkit-box-fill-color: transparent;
-  -moz-box-fill-color: transparent;
-  color: white;
-  border:none;
+  background-color: transparent;
+  color: #Cd00ff;
+  border: 3px solid #Cd00ff;
   width: 30%;
   padding: 10px;
   text-align: center;
   text-decoration: bold;
   display: block;
-  box-shadow:0px 0px 10px #AE2DD180;
   border-radius:20px;
   transition: all 0.3s ease;
   position: fixed;
   animation: ambient 5s;
   animation-iteration-count: infinite;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 .alert:hover {
-  box-shadow:0px 0px 15px #AE2DD1;
   transition: all 0.3s ease;
   cursor: pointer;
 }
@@ -288,135 +228,157 @@
 
 /* Link Formatting */
 a:link {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
-  color: #AE2DD1;
+  color: #Cd00ff;
   transition: all 0.6s ease;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 a:visited {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
-  color: #AE2DD1;
+  color: #Cd00ff;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 a:hover {
-  font-family: 'Abel', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 2px 4px #AE2DD1;
-  color: #AE2DD1;
+  color: #Cd00ff;
   transition: all 0.6s ease;
   animation: fly 0.6s;
   cursor: pointer;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 a:active {
-  color: #AE2DD1;
-  font-family: 'Abel', sans-serif;
+  color: #Cd00ff;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   font-size:14px;
   text-align:center;
-  text-shadow:0px 2px 3px #AE2DD170;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 
 /* Generic Element Formatting */
 body {
-  background-image: linear-gradient(90deg, #07060d, #232127, #07060d);
+  background-color: #22283a;
   text-decoration: none;
   background-attachment: fixed;
 }
 
-img {
-  border: 5px solid #AE2DD1;
+div {
+  background-color: #151928;
+  padding: 50px;
+  display: block;
   border-radius: 40px;
-  box-shadow: 0px 0px 20px #AE2DD1;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
+  margin-left: 20%;
+  margin-right: 20%;
+}
+div:hover {
+  
+  transition: all ease 0.3s;
+}
+
+section {
+  background-color: #0b0d18;
+  padding: 50px;
+  display: block;
+  border-radius: 20px;
+  margin-left: 0%;
+  margin-right: 0%;
+  transition: all ease 0.3s;
+}
+
+section:hover {
+  background-color: #060810;
+  transition: all ease 0.3s;
+}
+
+img {
+  border: 3px solid #Cd00ff;
+  border-radius: 40px;
+  background-color: #22283a;
   -webkit-background-clip: box;
   -moz-background-clip: box;
   -webkit-box-fill-color: transparent;
   -moz-box-fill-color: transparent;
   transition: all 0.3s ease;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 img:hover {
-  border: 5px solid #6A15A1;
-  box-shadow: 0px 0px 20px #6A15A1;
+  border: 3px solid #Cd00ff;
   transition: all 0.3s ease;
 }
 
 iframe {
-  border: 5px solid #AE2DD1;
+  border: 3px solid #Cd00ff;
   border-radius: 40px;
-  box-shadow: 0px 0px 20px #AE2DD1;
-  background-image: linear-gradient(#AE2DD1, #6A15A1);
-  -webkit-background-clip: box;
-  -moz-background-clip: box;
-  -webkit-box-fill-color: transparent;
-  -moz-box-fill-color: transparent;
+  background-color: #22283a;
   transition: all 0.3s ease;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 iframe:hover {
-  border: 5px solid #6A15A1;
-  box-shadow: 0px 0px 20px #6A15A1;
+  border: 3px solid #Cd00ff;
   transition: all 0.6s ease;
   animation: bounce 1s;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 html {
-  scroll-behavior: smooth;
+  scroll: smooth;
 }
 
 /* Text Selection Formatting */
 ::-moz-selection {
   color: white;
-  background: #AE2DD180;
+  background: #Cd00ff;
   border-radius: 4px;
   border: none;
   transition: all 0.6s ease;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 ::selection {
   color: white;
-  background: #AE2DD180;
+  background: #Cd00ff;
   border: none;
   transition: all 0.6s ease;
   border-radius: 4px;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 
 /* Dividing <hr> formattings */
 hr.rounded {
-  border: 2px solid #ffffff;
-  border-radius: 2px;
-  background: white;
+  border: 3px solid #Cd00ff;
+  border-radius: 3px;
+  background: #Cd00ff;
   transition: all 0.6s ease;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-hr.rounded:hover {
-  border: 2px solid #ffffff;
-  border-radius: 2px;
-  transition: all 0.6s ease;
-  animation: fly 0.6s;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 hr {
-  border: 1px solid #ffffff;
+  border: 1px solid #Cd00ff;
   border-radius: 2px;
   background: white;
   transition: all 0.6s ease;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-hr:hover {
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-  transition: all 0.6s ease;
-  animation: fly 0.6s;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-shadow: 0px 2px 5px #00000090;
+  box-shadow: 0px 2px 5px #00000090;
 }
 
 /* scrollbar stuff */
@@ -432,7 +394,7 @@ hr:hover {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #AE2DD1;
+  background: #Cd00ff;
   border-radius: 5px;
 }
 
@@ -443,30 +405,22 @@ hr:hover {
 
 .content {
   transition: all 0.6s ease;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
   z-index: 3;
-}
-.bgcanvas {
-  position: fixed;
-  top: 80%;
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
 }
 
 @keyframes bounce {
   0% { transform: translate(0px,0px) rotate(0deg); }
-  25% { transform: translate(0px,-4px) rotate(0deg); }
-  50% { transform: translate(0px,4px) rotate(0deg); }
+  25% { transform: translate(0px,-2px) rotate(0deg); }
+  50% { transform: translate(0px,2px) rotate(0deg); }
   75% { transform: translate(0px 0px) rotate(0deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
 
 @keyframes fly {
   0% { transform: translate(0px,0px) rotate(0deg); }
-  25% { transform: translate(0px,-2px) rotate(0deg); }
-  50% { transform: translate(0px,2px) rotate(0deg); }
+  25% { transform: translate(0px,-1px) rotate(0deg); }
+  50% { transform: translate(0px,1px) rotate(0deg); }
   75% { transform: translate(0px 0px) rotate(0deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
@@ -475,7 +429,7 @@ hr:hover {
   0% { transform: translate(0px,0px) rotate(0deg); }
   20% { transform: translate(0px,0px) rotate(1deg); }
   40% { transform: translate(0px,0px) rotate(-1deg); }
-  60% { transform: translate(0px 0px) rotate(1deg); }
-  80% { transform: translate(0px 0px) rotate(-1deg); }
+  60% { transform: translate(0px 0px) rotate(0.5deg); }
+  80% { transform: translate(0px 0px) rotate(-0.5deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
