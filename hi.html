@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+hi :)
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      h1 {
+        
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      
+    </script>
+    <h1>hi :)</h1>
+    <script>
+      window.onbeforeunload = function (e) {
+        e = e || window.event;
+        if (e) {
+            e.returnValue = 'Sure?';
+        }
+        return 'Sure?';
+      };
+      function clickEvent() {
+        document.getElementById("myCheck").click();
+      }
+      window.addEventListener("beforeunload", function (e) {
+        var confirmationMessage = 'This tab refuses to close '
+                            + '(lol!)';
+        (e || window.event).returnValue = confirmationMessage;
+      return confirmationMessage;
+      });
+    </script>
+  </body>
+</html>
