@@ -433,3 +433,9 @@ hr {
   80% { transform: translate(0px 0px) rotate(-0.5deg); }
   100% { transform: translate(0px,0px) rotate(0deg); }
 }
+@media only screen and (max-width: 768px) {
+  div {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
