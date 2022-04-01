@@ -10,4 +10,5 @@
 - Darktyper
 - Matrix Tab Spammer
 - Jibbertyper
-- Possiblynitro
+- Linkbandit
+- Pingpong
