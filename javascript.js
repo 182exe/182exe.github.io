@@ -42,7 +42,24 @@ var quotes = [
   "try your very hardest; it will *always* pay off.",
   "one day, all of us will die. so live your life to its fullest.",
   "learn from your problems",
-  "honesty is incredibly important"
+  "honesty is incredibly important",
+  "It's all shits and giggles until someone giggles and shits.",
+  "i have never been more exited to put illegal software on the phone of whoever i first talk to",
+  "never judge a foot by it's toes",
+  "the day that someone rick rolls rick astley is the day that humanity evolves.",
+  "chaos is funny."
+  "heheheha",
+  "who are you and why are you eating my bathtub?",
+  "vending machine related deaths rise year by year",
+  "sub to 182exe",
+  "who is dream",
+  "fortnite battle pass [you sing], i booted up my PC, [you sing], to get that fortnite battle pass, [you sing], did i mention fortnite, [you sing], its night time, [you sing], thats basically night time, [you sing], adventure time!",
+  "javascript is kinda like baby mode java, and scratch is just baby mode javascript.",
+  "/give @a diamond 64",
+  "look behind you",
+  "*you're",
+  "join my discord to suggest quotes and stuff",
+  "me when",
 ];
 
 // Create clientside array that will be used to store already used quote IDs //
