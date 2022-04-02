@@ -202,30 +202,6 @@
   cursor: pointer;
 }
 
-/* The alert message box */
-.alert {
-  background-color: transparent;
-  color: #Cd00ff;
-  border: 3px solid #Cd00ff;
-  width: 30%;
-  padding: 10px;
-  text-align: center;
-  text-decoration: bold;
-  display: block;
-  border-radius:20px;
-  transition: all 0.3s ease;
-  position: fixed;
-  animation: ambient 5s;
-  animation-iteration-count: infinite;
-  text-shadow: 0px 2px 5px #00000090;
-  box-shadow: 0px 2px 5px #00000090;
-}
-.alert:hover {
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-
 /* Link Formatting */
 a:link {
   font-family: 'Barlow Semi Condensed', sans-serif;
