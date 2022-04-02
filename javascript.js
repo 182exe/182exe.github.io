@@ -54,9 +54,9 @@ var quotes = [
   "sub to 182exe",
   "who is dream",
   "javascript is kinda like baby mode java, and scratch is just baby mode javascript.",
-  "/give @a diamond 64",
+  "\/give @a diamond 64",
   "look behind you",
-  "*you're",
+  "*you\'re",
   "join my discord to suggest quotes and stuff",
   "me when",
 ];
@@ -88,12 +88,4 @@ function newQuote() {
   if ( quotesUsed === quotes.length ) {
     quotesUsed = 0;
   }
-}
-
-let offline = navigator.onLine;
-let offlineAlert = document.getElementById('alert');
-if (offline === true) {
-  offlineAlert.style.display = "none";
-} else {
-  offlineAlert.style.display = "block";
 }
