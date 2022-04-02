@@ -43,9 +43,9 @@ var quotes = [
   "one day, all of us will die. so live your life to its fullest.",
   "learn from your problems",
   "honesty is incredibly important",
-  "It's all shits and giggles until someone giggles and shits.",
+  "Its all shits and giggles until someone giggles and shits.",
   "i have never been more exited to put illegal software on the phone of whoever i first talk to",
-  "never judge a foot by it's toes",
+  "never judge a foot by its toes",
   "the day that someone rick rolls rick astley is the day that humanity evolves.",
   "chaos is funny."
   "heheheha",
