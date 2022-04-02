@@ -44,7 +44,7 @@ var quotes = [
   "learn from your problems",
   "honesty is incredibly important",
   "Its all shits and giggles until someone giggles and shits.",
-  "i have never been more exited to put illegal software on the phone of whoever i first talk to",
+  "i have never been more excited to put illegal software on the phone of whoever i first talk to",
   "never judge a foot by its toes",
   "the day that someone rick rolls rick astley is the day that humanity evolves.",
   "chaos is funny."
@@ -53,7 +53,6 @@ var quotes = [
   "vending machine related deaths rise year by year",
   "sub to 182exe",
   "who is dream",
-  "fortnite battle pass [you sing], i booted up my PC, [you sing], to get that fortnite battle pass, [you sing], did i mention fortnite, [you sing], its night time, [you sing], thats basically night time, [you sing], adventure time!",
   "javascript is kinda like baby mode java, and scratch is just baby mode javascript.",
   "/give @a diamond 64",
   "look behind you",
