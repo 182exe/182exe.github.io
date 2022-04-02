@@ -47,7 +47,7 @@ var quotes = [
   "i have never been more excited to put illegal software on the phone of whoever i first talk to",
   "never judge a foot by its toes",
   "the day that someone rick rolls rick astley is the day that humanity evolves.",
-  "chaos is funny."
+  "chaos is funny.",
   "heheheha",
   "who are you and why are you eating my bathtub?",
   "vending machine related deaths rise year by year",
