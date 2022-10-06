@@ -160,7 +160,6 @@ var quotes = [
     "me when",
     "If I had a penny for every time I clicked in Fortnite, I'd be broke.",
     "20 Dollars later...",
-    "You matter",
     "Join my discord if you want to suggest quotes to be added here!",
     "One time in second grade I fell off the play structure and hit my head on a pole",
     "Reasons why 'nobody asked' is a terrible argument: 1. You don't actually know that nobody asked 2. This is a public internet chat, I can say what I want and I don't care whether or not you think that someone 'asked.' 3. If everyone had to have someone else ask a question before another person could say something, then that would mean that every word ever spoken would be an answer. And that's just not how it works.",
