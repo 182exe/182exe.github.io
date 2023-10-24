@@ -1,164 +1,92 @@
 <!doctype HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="182exe Online is a place where 182exe is online.">
+        <meta name="author" content="182exe">
+        <meta name="title" content="182exe Online"/>
+        <meta name="og:title" content="182exe Online"/>
+        <meta name="og:description" content="182exe Online is a place where 182exe is online."/>
+        <meta name="og:type" content="website"/>
+        <meta name="og:url" content="https://182exe.online/"/>
+        <meta name="og:image" content="https://cdn.e-z.host/e-zimagehosting/50427e18-a47c-48ad-b8bf-da3afdc4ae12/56a9d4f9.png"/>
+        <meta name="google-site-verification" content="KdEIykkQd6Z_U6fm2NQcVIiGozbwknSroqn7FE8Jt-c" />
+        <meta property="theme-color" content="#6600FF"/>
+        <link rel="shortcut icon" type="image/jpg" href="https://cdn.e-z.host/e-zimagehosting/50427e18-a47c-48ad-b8bf-da3afdc4ae12/56a9d4f9.png"/>
+        <link rel="icon" type="image/jpg" href="https://cdn.e-z.host/e-zimagehosting/50427e18-a47c-48ad-b8bf-da3afdc4ae12/56a9d4f9.png"/>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/twemoji@latest/dist/twemoji.min.js" crossorigin="anonymous"></script>
+        <title>182exe Online</title>
+    </head>
+    <body>
+        <noscript>This page requires javascript to function.</noscript>
+        <script type="module" src="coffeelanguage/previewimage.js"></script>
+        <div id="fade"></div>
+        <canvas id="canvas" class="wallpaper blurrington"></canvas>
+        <canvas id="canvas-blur" class="wallpaper" style="z-index: -1;"></canvas>
+        
+        <div class="container tilt-container content-box" id="menu-box">
+            <div class="tilt-element glass box">
+                <div class="label-container">
+                    <h1 class="title"><strong>> </strong>182exe<strong>.online</strong></h1>
+                    <p> · </p>
+                    <h3 class="clickable" id="themedisplay">Theme</h3>
+                    <p> · </p>
+                    <marquee behavior="alternate" scrollamount="4">shafid · lyosha · androgenousd · virtual14 · jasminetea · nerserex · 825763 · replitz · chris · ecozy · zobiah · bea · chayy · synthbreak · hope · real · calm guild · the orchard · cottage</marquee>
+                </div>
+                <div class="box glass">
+                    <p class="has-emoji">
+                        Hey 👋<br>
+                        I'm 182exe, I do things for fun.
+                    </p>
+                    <i class="has-emoji">⚠ this site is in a beta stage and some features are unfinished.</i>
+                </div>
+                <div class="tab box glass" id="tab2">
+                    <h2 class="header om-nom" onclick="javascript:location.href = `pages/projects/`"><strong>></strong><span>Projects</span></h2>
+                    <div class="tab-content">
+                        <p>Open source or free applications, websites, and other things I've created.</p>
+                    </div>
+                </div>
+                <div class="tab box glass" id="tab3">
+                    <h2 class="header om-nom" onclick="javascript:location.href = `pages/portfolios/`"><strong>></strong><span>Portfolios</span></h2>
+                    <div class="tab-content">
+                        <p>Art, development, video editing, and design showcases.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<!--
+        <div class="container tilt-container content-box">
+            <div class="tilt-element glass box">
+                <div class="label-container">
+                    <h1 class="title"><strong>> </strong>Socials</h1>
+                </div>
+                <div style="display: flex; flex-flow: column wrap;">
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/youtube.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://www.youtube.com/channel/UCs70dOzeKKOIOu-m2B2VsFw">Youtube (Main)</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/youtube.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://www.youtube.com/channel/UC-L7G3CaIMmQDCbWSdOS1kA">Youtube (Alt)</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/discord.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://discord.com/invite/nTBKbg9gGu">Discord</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/github.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://github.com/182exe/">Github</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/ko-fi.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://ko-fi.com/182exe">Ko-Fi</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/pvprp.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://pvprp.com/182exe">PVPRP</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/resourcepacks24.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://resourcepacks24.de/profile/182exe">Resourcepacks24</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/namemc.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://namemc.com/search?q=182exe">NameMC (Main)</a></div>
+                    <div class="glass box-small label-container"><img style="width: 3.5ch; height: 3.5ch; padding-left: 1ch; padding-right: 1ch;" src="flicks/namemc.png"><a crossorigin="anonymous" class="clickable" referrerpolicy="same-origin" target="_blank" href="https://namemc.com/search?q=Resourcepac">NameMC (Alt)</a></div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="watermark" class="box">
+            <p class="text-shadow">Made with <strong>Vanilla JS</strong> · © 182exe 2021-XXXX</p>
+        </div>
 
-Yo! If you're reading this, then congratulations! You've found the source code of this webpage.
-I'm not very good at coding, so please keep that in mind if you are here to steal stuff.
-I can't stop you, so I'll just warn you that there are better places to steal from.                                                                                    ??                                                                        183exe is here.
-
-Enjoy your time here!
-
--->
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="UTF-8">
-    <meta name="description" content="182exe's website for 182exe's things.">
-    <meta name="author" content="182exe">
-    <meta name="title" content="182exe Online"/>
-    <meta name="og:title" content="182exe Online"/>
-    <meta name="og:description" content="182exe's website for 182exe's things."/>
-    <meta name="og:type" content="website"/>
-    <meta name="og:url" content="https://182exe.xyz/"/>
-    <meta name="og:image" content="https://cdn.e-z.host/e-zimagehosting/50427e18-a47c-48ad-b8bf-da3afdc4ae12/56a9d4f9.png"/>
-    <meta name="google-site-verification" content="KdEIykkQd6Z_U6fm2NQcVIiGozbwknSroqn7FE8Jt-c" />
-    <meta property="theme-color" content="#6600FF"/>
-    <link rel="shortcut icon" type="image/jpg" href="https://cdn.e-z.host/e-zimagehosting/50427e18-a47c-48ad-b8bf-da3afdc4ae12/56a9d4f9.png"/>
-    <link rel="icon" type="image/jpg" href="https://cdn.e-z.host/e-zimagehosting/50427e18-a47c-48ad-b8bf-da3afdc4ae12/56a9d4f9.png"/>
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Barlow' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Cutive Mono' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Kosugi Maru' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Sen' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Space Mono' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css?family=Arial Rounded' rel='stylesheet'>
-    <title>[ 182exe Online ]</title>
-</head>
-<body>
-    <script src="main.js"></script>
-    <button id="themeChange" class="themeButton" onclick="rotateTheme()"></button>
-    <button id="fontChange" class="fontButton" onclick="rotateFont()">T</button>
-    <div id="transitionRectangle" class="splashStateRect"></div>
-    <div id="splash" onclick="javascript:init()" class="heading clickable centered">click to enter.</div>
-    <div id="topnav" class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#links">Links</a>
-        <a href="#projects">Public Projects</a>
-    </div>
-    <div id="title" class="heading clickable">182exe Online</div>
-    <section id="home">
-        <h1>Welcome!</h1>
-        <p>This is 182exe Online, a place for me (182exe) to post things online and for you to try them out!. Pretty simple, right?</p>
-    </section>
-    <section id="about">
-        <h1>About Me</h1>
-        <p>182exe is an internet user who does a lot of different things. He likes to create stuff and dislikes talking about himself in 3rd person. Here is a short list of things that 182exe does:</p>
-        <ul>
-            <li>Plays Minecraft</li>
-            <li>Makes pixel art</li>
-            <li>Makes Minecraft resourcepacks & skins</li>
-            <li>Creates content on Youtube</li>
-            <li>Talks a lot on Discord</li>
-            <li>Codes basic things (such as this site!)</li>
-        </ul>
-        <p>Anyways, I'm basically just a person who likes to learn new things and get new skills.</p>
-    </section>
-    <section id="links">
-        <h1>Links</h1>
-        <p>Here, you can find links to 182exe's online profiles. Follow me, or else I follow you home.</p>
-        <subsection>
-            <h1>Youtube</h1>
-            <p>I post Minecraft related content on two different channels. The first channel, 182exe, has more effort content, while 182jar has still-entertaining content with a slightly different style than the main channel</p>
-            <button onclick="openLink(0)">Main Channel</button>
-            <button onclick="openLink(1)">Alt Channel</button>
-        </subsection>
-        <subsection>
-            <h1>Discord</h1>
-            <p>I have a Discord server where you can talk to me directly. It is a small community with lots of other perks, such as <b>custom bots</b>, <b>art and feedback channels</b>, and more!</p>
-            <button onclick="openLink(2)">Join my Discord</button>
-        </subsection>
-        <subsection>
-            <h1>Minecraft & NameMC</h1>
-            <p>This is what I do for fun, so if you see me in-game, then say <b>hi!</b> My main account's username is <b>182exe</b> and my alt account is <b>Resourcepac</b>! If you see me in-game, say hi! I also have two NameMC profiles. If you are a NameMC user, then stop by and maybe drop a follow! I make skins sometimes, so those are there too.</p>
-            <button onclick="openLink(3)">182exe on NameMC</button>
-            <button onclick="openLink(4)">Resourcepac on NameMC</button>
-        </subsection>
-        <subsection>
-            <h1>PVPRP</h1>
-            <p>PVPRP is a new service that allows users to post resourcepacks for anyone to download and use. I am a part of their media team, and it serves as another way for you to download my resourcepacks, if Discord or Mediafire do not work.</p>
-            <button onclick="openLink(5)">View PVPRP</button>
-        </subsection>
-        <subsection>
-            <h1>Resourcepacks24</h1>
-            <p>Resourcepacks24 is a barely-maintained German website for resourcepacks. My very first packs were posted on there, and although I will not be continuing to post packs on that website due to their upload limit for normal users, it's still a place that I am.</p>
-            <button onclick="openLink(6)">See Resourcepacks24</button>
-        </subsection>
-        <subsection>
-            <h1>Github</h1>
-            <p>Almost all of my projects (see below), as well as this website are <b>open source</b> on Github! I'm not the greatest at coding though, so please be careful. I currently know Javascript, HTML, and CSS, and I want to learn Java next in order to start developing my own forge mods.</p>
-            <button onclick="openLink(7)">Visit Github</button>
-        </subsection>
-        <subsection>
-            <h1>Ko-Fi</h1>
-            <p>I use Ko-Fi as a payment method if I'm doing commissions, since I'm underage and can't use PayPal yet. You can buy me a coffee and help me create better content by donating!</p>
-            <button onclick="openLink(8)">Buy me a coffee</button>
-        </subsection>
-        <subsection>
-            <h1>Hypixel Forums</h1>
-            <p>I am a little bit active on the Hypixel Forums, and when I am, I post useful guides and methods.</p>
-            <button onclick="openLink(9)">Visit me on the Forums</button>
-        </subsection>
-        <subsection>
-            <h1>182exe Online</h1>
-            <p>This is my website, and I do my best to make it interactive! If you <b>keep scrolling</b>, there are some fun gadgets and things for <b>you</b> to play wth down below!</p>
-            <button onclick="trolle()">This button does nothing!</button>
-        </subsection>
-    </section>
-    <section id="projects">
-        <h1>Public Projects</h1>
-        <p>I have a few tiny webapps that <b>you</b> can try out! They are all interactive.</p>
-        <subsection>
-            <h1>Quote Generator</h1>
-            <p>I made this to test my skills as a challenge on the first version of this website, and it's still here. You can use it below, and suggest new quotes by joining my Discord!</p>
-            <button onclick="genQuote()">Generate a Quote</button>
-            <p id="quoteBox"></p>
-        </subsection>
-        <subsection>
-            <h1>Matrix</h1>
-            <p>This is a small project in which you click a button and something bad happens. Originally made to troll my school friends.</p>
-            <button onclick="openLink(10)">Open Matrix</button>
-        </subsection>
-        <subsection>
-            <h1>Jibbertyper</h1>
-            <p>This is a typing game that generates random words for you to type into a box within a set amount of time. Can also be used as a copypasta generator.</p>
-            <button onclick="openLink(11)">Try Jibbertyper</button>
-        </subsection>
-        <subsection>
-            <h1>Linkbandit</h1>
-            <p>A customizable text generator that can make large amounts of links. Presets included.</p>
-            <button onclick="openLink(12)">Use Linkbandit</button>
-        </subsection>
-        <subsection>
-            <h1>Rotcustom</h1>
-            <p>A school project that can decode simple rotation ciphered text.</p>
-            <button onclick="openLink(13)">Use Rotcustom</button>
-        </subsection>
-        <subsection>
-            <h1>Links</h1>
-            <p>My personal app that I use to make link redirects using the 182exe.xyz domain. The links look like this: 182exe.xyz/links?id=something.</p>
-            <button onclick="openLink(14)">Example Link</button>
-        </subsection>
-        <subsection>
-            <h1>Ping Pong</h1>
-            <p>A small test project that just sends you back and forth between two blank files.</p>
-            <button onclick="openLink(15)">Get Bounced</button>
-        </subsection>
-    </section>
-    <footer>
-        <p>© 182exe 2021-2022</p>
-    </footer>
-</body>
+        <script type="module" src="coffeelanguage/main.js"></script>
+        <script type="module" src="coffeelanguage/tabs.js"></script>
+        <script type="module" src="coffeelanguage/3d.js"></script>
+        <script type="module" src="coffeelanguage/wallpaper.js"></script>
+        <script type="module" src="coffeelanguage/twemoji.js"></script>
+    </body>
+</html>

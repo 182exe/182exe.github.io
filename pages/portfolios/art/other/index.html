@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { margin: 0; height: 100vh; color: thistle; background: black; overflow-x: hidden; overflow-y: auto; font-size: large; }
+        a:link { color: mediumslateblue; }
+        a:visited { color: mediumpurple; }
+        a:active { color: grey; }
+        #image-container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 0px;
+            margin: 0;
+            padding: 0;
+        }
+        .image-item {
+            flex: 0 0 1in;
+            display: flex;
+            flex-flow: column wrap;
+            align-items: flex-start;
+            gap: 0;
+            margin: 5px;
+        }
+        .image-item img {
+            width: 4in;
+            height: auto;
+            object-fit: cover;
+            vertical-align: bottom;
+            image-rendering:crisp-edges;
+        }
+        .image-item p {
+            height: min-content;
+            text-align: center;
+            font-size: 2ch;
+            font-style: italic;
+            text-wrap:wrap;
+        }
+        .image-item > div * {
+            margin: 0;
+            padding: 0;
+            border-left: solid white;
+            border-right: solid white;
+            border-style: solid;
+            border-width: 5px;
+            border-top: none;
+            border-bottom: none;
+        }
+        @media screen and (orientation: portrait) {
+            .image-item img {
+                width: 45vw;
+            }
+        }
+    </style>
+</head>
+<body><pre>
+<script>document.querySelector("pre").innerHTML = `<a href="${location.pathname}">${location.pathname}</a> | <a href="../">back</a>\n<i>page is wip. expect changes soon.</i>\n${document.querySelector("pre").innerHTML}`; document.title = location.pathname</script>
+here you can view just about all of my art that i want to show.
+<ul id="image-container"></ul>
+<script>
+    console.error = () => {}
+    const container = document.getElementById('image-container');
+    const folderPath = `pics`;
+    let imageIndex = 0;
+    const loadImageWithDescription = () => {
+        const imageFilename = `${imageIndex}.`;
+        const descriptionFilename = `${imageIndex}.txt`;
+        const imageUrl = `${folderPath}/${imageFilename}`;
+        const descriptionUrl = `${folderPath}/${descriptionFilename}`;
+        const imgExts = ["png", "gif", "jpg", "jpeg", "webp"];
+        fetch(descriptionUrl)
+        .then((descriptionResponse) => {
+            if (descriptionResponse.ok) {
+                return descriptionResponse.text();
+            } else {
+                return Promise.reject('Description not found');
+            }
+        })
+        .then((description) => {
+            let imageFound = false;
+            let imageExtensionIndex = 0;
+            const loadImageWithExtension = () => {
+                if (imageExtensionIndex < imgExts.length) {
+                    const imageExtension = imgExts[imageExtensionIndex];
+                    const imageExtensionUrl = imageUrl + imageExtension;
+                    
+                    fetch(imageExtensionUrl)
+                        .then((imageResponse) => {
+                            if (imageResponse.ok) {
+                                const imageItem = document.createElement('li');
+                                imageItem.classList.add('image-item');
+                                const image = document.createElement('img');
+                                image.src = imageExtensionUrl;
+                                image.alt = description;
+                                const descriptionElement = document.createElement('p');
+                                descriptionElement.textContent = description;
+                                const liDiv = document.createElement("div");
+                                imageItem.appendChild(liDiv);
+                                liDiv.appendChild(image);
+                                liDiv.appendChild(descriptionElement);
+                                container.appendChild(imageItem);
+                                imageIndex++;
+                                loadImageWithDescription();
+                                imageFound = true;
+                            } else {
+                                imageExtensionIndex++;
+                                loadImageWithExtension();
+                            }
+                        })
+                        .catch((error) => {});
+                }
+            };
+            loadImageWithExtension();
+        })
+        .catch((error) => {});
+    };
+    loadImageWithDescription();
+</script>
+</pre></body>
+</html>
