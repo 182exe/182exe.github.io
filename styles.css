@@ -148,6 +148,14 @@ canvas {
     text-wrap: nowrap;
     vertical-align: middle;
 }
+.social-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    text-wrap: nowrap;
+    vertical-align: middle;
+}
 .tilt-container {
     perspective: 75vw;
 }
