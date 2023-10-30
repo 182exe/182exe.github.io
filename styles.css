@@ -66,18 +66,7 @@ img.emoji {
 }
 
 /* || element styles */
-strong {
-    background: linear-gradient(45deg, var(--splash1), var(--splash2), var(--splash1), var(--splash2), var(--splash1));
-    background-size: 400% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 32px var(--splash1), 0 0 32px var(--splash2);
-    animation: textShine 10s ease-in-out infinite alternate;
-    color: transparent;
-    -webkit-text-fill-color: transparent;
-}
-a:any-link {
+strong, a:any-link {
     background: linear-gradient(45deg, var(--splash1), var(--splash2), var(--splash1), var(--splash2), var(--splash1));
     background-size: 100% auto;
     -webkit-background-clip: text;
