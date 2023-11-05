@@ -247,7 +247,7 @@ function updateParticles(particles) {
         const speed = 0.1;
 
         // Calculate the easing factor (adjust the value to control the easing)
-        const easingFactor = 0.05;
+        const easingFactor = 0.015;
 
         // Interpolate between the previous dx and dy values and the new ones
         dx = particle.pdx + ((noiseX * speed) / (particle.radius / 5) - particle.pdx) * easingFactor;
